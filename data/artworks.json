@@ -196,9 +196,7 @@
     "description_hu": null,
     "tags": ["városkép"],
     "exhibitions": [],
-    "exhibitions_hu": [
-      "2025 - Tokod, értékek és gyűjtemények háza"
-    ],
+    "exhibitions_hu": [],
     "available": true
   },
   {
@@ -382,8 +380,8 @@
     "technique": "mixed, oil",
     "dimensions": "40 × 50 cm",
     "support": "canvas",
-    "description": null,
-    "description_hu": null,
+    "description": "For comission.",
+    "description_hu": "Megrendelésre készült",
     "tags": ["természet"],
     "exhibitions": [],
     "exhibitions_hu": [

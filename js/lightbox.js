@@ -21,6 +21,7 @@ const metaExhibitions  = document.getElementById('meta-exhibitions');
 const metaExhLabel     = document.getElementById('meta-exhibitions-label');
 const metaExhList      = document.getElementById('meta-exhibitions-list');
 const metaEnquire      = document.getElementById('meta-enquire');
+const zoomLink         = document.getElementById('lightbox-zoom');
 
 let currentIndex = 0;
 
@@ -54,6 +55,7 @@ function populate(artwork) {
   img.src = `images/large/${artwork.id}.jpg`;
   img.alt = field(artwork, 'title');
   img.onerror = () => { img.src = 'images/placeholder.svg'; };
+  zoomLink.href = `images/large/${artwork.id}.jpg`;
 
   metaTitle.textContent = field(artwork, 'title');
 
