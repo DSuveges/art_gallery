@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Artist portfolio — paintings and works on paper">
+  <title>Gallery</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--
+    FILE:// FALLBACK
+    If you open this page directly from the filesystem (without a local server),
+    Chrome and some other browsers block fetch() on local files.
+    In that case, uncomment the line below and keep artworks.js in sync with
+    artworks.json (see README for instructions).
+  -->
+  <!-- <script src="data/artworks.js"></script> -->
+</head>
+<body>
+
+  <header>
+    <h1 class="artist-name">Artist Name</h1>
+    <p class="artist-tagline">Paintings &amp; works on paper</p>
+  </header>
+
+  <nav id="filters" aria-label="Filter by technique">
+    <!-- Populated by gallery.js -->
+  </nav>
+
+  <main id="gallery" aria-label="Artwork gallery">
+    <!-- Populated by gallery.js -->
+  </main>
+
+  <footer>
+    <p>For enquiries, contact <a href="mailto:hello@example.com">hello@example.com</a></p>
+  </footer>
+
+  <!-- Lightbox — rendered once, reused for every artwork -->
+  <div id="lightbox" role="dialog" aria-modal="true" aria-label="Artwork detail">
+    <div id="lightbox-backdrop"></div>
+    <div id="lightbox-panel">
+      <button id="lightbox-close" aria-label="Close">&times;</button>
+      <button id="lightbox-prev" aria-label="Previous artwork">&#8592;</button>
+      <button id="lightbox-next" aria-label="Next artwork">&#8594;</button>
+
+      <div id="lightbox-image-wrap">
+        <img id="lightbox-img" src="" alt="">
+      </div>
+
+      <div id="lightbox-meta">
+        <h2 id="meta-title"></h2>
+        <dl id="meta-details"></dl>
+        <p id="meta-description"></p>
+        <span id="meta-available"></span>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
