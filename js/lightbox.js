@@ -75,7 +75,7 @@ function populate(artwork) {
 
   metaDesc.textContent = artwork.description || '';
 
-  metaBadge.textContent   = artwork.available ? 'Available' : 'Not available';
+  metaBadge.textContent   = artwork.available ? 'Available' : 'Sold';
   metaBadge.className     = 'badge ' + (artwork.available ? 'badge-available' : 'badge-sold');
 
   updateNavButtons();
