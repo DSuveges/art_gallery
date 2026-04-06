@@ -52,6 +52,7 @@ img { display: block; max-width: 100%; }
    Header
    ============================================================ */
 header {
+  position: relative;
   padding: 3rem var(--gap) 2rem;
   text-align: center;
   border-bottom: 1px solid var(--border);
@@ -102,33 +103,32 @@ header {
 
 /* Language switcher */
 .lang-switch {
+  position: absolute;
+  top: 1.25rem;
+  right: var(--gap);
   display: flex;
-  justify-content: center;
-  gap: 0.1rem;
-  margin-top: 0.75rem;
+  gap: 0.25rem;
 }
 
 .lang-switch button {
-  font-family: var(--font-ui);
-  font-size: 0.72rem;
-  letter-spacing: 0.08em;
-  padding: 0.2rem 0.5rem;
-  border: 1px solid transparent;
+  font-size: 1.4rem;
+  line-height: 1;
+  padding: 0.15rem;
+  border: 2px solid transparent;
   background: transparent;
-  color: var(--text-muted);
   cursor: pointer;
   border-radius: var(--radius);
-  transition: all var(--transition);
+  opacity: 0.4;
+  transition: opacity var(--transition), border-color var(--transition);
 }
 
 .lang-switch button:hover {
-  color: var(--text);
+  opacity: 0.75;
 }
 
 .lang-switch button.active {
-  color: var(--text);
-  border-color: var(--border);
-  background: var(--surface);
+  opacity: 1;
+  border-color: var(--accent);
 }
 
 /* ============================================================
