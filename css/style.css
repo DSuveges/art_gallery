@@ -241,7 +241,7 @@ header {
 }
 
 .card:hover img {
-  animation: img-pan 6s ease-in-out infinite alternate;
+  animation: img-pan 6s linear infinite alternate;
 }
 
 @keyframes img-pan {
