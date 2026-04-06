@@ -4,7 +4,7 @@
  */
 
 import { getVisible } from './gallery.js';
-import { t, field } from './i18n.js';
+import { t, field, getLang } from './i18n.js';
 
 const lightbox  = document.getElementById('lightbox');
 const backdrop  = document.getElementById('lightbox-backdrop');
@@ -85,8 +85,11 @@ function populate(artwork) {
     metaTags.hidden = true;
   }
 
-  const exhList = field(artwork, 'exhibitions');
-  const exhItems = Array.isArray(exhList) && exhList.length ? exhList : null;
+  const lang = getLang();
+  const exhRaw = (lang !== 'en' && Array.isArray(artwork[`exhibitions_${lang}`]))
+    ? artwork[`exhibitions_${lang}`]
+    : artwork.exhibitions;
+  const exhItems = Array.isArray(exhRaw) && exhRaw.length > 0 ? exhRaw : null;
   if (exhItems) {
     metaExhLabel.textContent = t('exhibitions');
     metaExhList.innerHTML = exhItems.map(e => `<li>${e}</li>`).join('');
