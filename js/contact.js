@@ -4,6 +4,7 @@
  */
 
 import { loadStrings, initLang, initLangSwitcher, t, field } from './i18n.js';
+import { renderFooter } from './footer.js';
 
 async function loadContact() {
   if (window.__CONTACT__) return window.__CONTACT__;
@@ -112,6 +113,7 @@ async function init() {
     initLang();
     render(contact);
     initLangSwitcher();
+    renderFooter();
 
     document.addEventListener('langchange', () => render(contact));
   } catch (err) {

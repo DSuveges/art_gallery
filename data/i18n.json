@@ -40,7 +40,8 @@
     "tag_el_camino":          "El Camino",
     "tag_nature":             "Nature",
     "tag_cityscape":          "Cityscape",
-    "tag_abstract":           "Abstract"
+    "tag_abstract":           "Abstract",
+    "copyright":              "© {years} H. I. Adrienne. All rights reserved."
   },
   "hu": {
     "nav_works":              "Munkák",
@@ -83,6 +84,7 @@
     "tag_el_camino":          "El Camino",
     "tag_nature":             "Természet",
     "tag_cityscape":          "Városkép",
-    "tag_abstract":           "Absztrakt"
+    "tag_abstract":           "Absztrakt",
+    "copyright":              "© {years} H. I. Adrienne. Minden jog fenntartva."
   }
 }
