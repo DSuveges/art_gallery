@@ -59,16 +59,19 @@ function populate(artwork) {
 
   const rows = [
     [t('meta_year'),       artwork.year],
-    [t('meta_technique'),  t(techKey) !== techKey ? t(techKey) : capitalise(artwork.technique)],
+    [t('meta_technique'),  artwork.technique && (t(techKey) !== techKey ? t(techKey) : capitalise(artwork.technique))],
     [t('meta_dimensions'), artwork.dimensions],
-    [t('meta_support'),    t(supportKey) !== supportKey ? t(supportKey) : capitalise(artwork.support)],
+    [t('meta_support'),    artwork.support   && (t(supportKey) !== supportKey ? t(supportKey) : capitalise(artwork.support))],
   ];
 
   metaList.innerHTML = rows
+    .filter(([, value]) => value != null && value !== '' && value !== false)
     .map(([label, value]) => `<dt>${label}</dt><dd>${value}</dd>`)
     .join('');
 
-  metaDesc.textContent = field(artwork, 'description');
+  const desc = field(artwork, 'description');
+  metaDesc.textContent = desc ?? '';
+  metaDesc.hidden = !desc;
 
   if (artwork.tags && artwork.tags.length) {
     metaTags.innerHTML = artwork.tags
@@ -79,8 +82,13 @@ function populate(artwork) {
     metaTags.hidden = true;
   }
 
-  metaBadge.textContent = artwork.available ? t('available') : t('sold');
-  metaBadge.className   = 'badge ' + (artwork.available ? 'badge-available' : 'badge-sold');
+  if (artwork.available == null) {
+    metaBadge.hidden = true;
+  } else {
+    metaBadge.textContent = artwork.available ? t('available') : t('sold');
+    metaBadge.className   = 'badge ' + (artwork.available ? 'badge-available' : 'badge-sold');
+    metaBadge.hidden = false;
+  }
 
   if (metaEnquire) {
     const subject = encodeURIComponent(`${t('enquire')}: ${field(artwork, 'title')}`);

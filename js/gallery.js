@@ -114,9 +114,15 @@ export function render(artworks) {
     img.onerror = () => { img.src = 'images/placeholder.svg'; };
 
     const caption = document.createElement('figcaption');
+    const metaParts = [
+      artwork.year,
+      artwork.technique && (t(`technique_${artwork.technique}`) !== `technique_${artwork.technique}`
+        ? t(`technique_${artwork.technique}`)
+        : capitalise(artwork.technique)),
+    ].filter(Boolean);
     caption.innerHTML = `
       <span class="card-title">${field(artwork, 'title')}</span>
-      <span class="card-meta">${artwork.year} &middot; ${t('technique_' + artwork.technique) || capitalise(artwork.technique)}</span>
+      ${metaParts.length ? `<span class="card-meta">${metaParts.join(' &middot; ')}</span>` : ''}
     `;
 
     figure.appendChild(img);
