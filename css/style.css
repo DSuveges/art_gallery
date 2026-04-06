@@ -370,6 +370,24 @@ header {
   flex: 1;
 }
 
+/* Exhibitions list */
+#meta-exhibitions { display: flex; flex-direction: column; gap: 0.4rem; }
+
+.exhibitions-list {
+  list-style: disc;
+  padding-left: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.exhibitions-list li {
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
 /* Enquire link */
 .enquire-link {
   font-family: var(--font-ui);

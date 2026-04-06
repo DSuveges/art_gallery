@@ -16,8 +16,11 @@ const metaTitle = document.getElementById('meta-title');
 const metaList  = document.getElementById('meta-details');
 const metaDesc  = document.getElementById('meta-description');
 const metaTags  = document.getElementById('meta-tags');
-const metaBadge = document.getElementById('meta-available');
-const metaEnquire = document.getElementById('meta-enquire');
+const metaBadge        = document.getElementById('meta-available');
+const metaExhibitions  = document.getElementById('meta-exhibitions');
+const metaExhLabel     = document.getElementById('meta-exhibitions-label');
+const metaExhList      = document.getElementById('meta-exhibitions-list');
+const metaEnquire      = document.getElementById('meta-enquire');
 
 let currentIndex = 0;
 
@@ -80,6 +83,16 @@ function populate(artwork) {
     metaTags.hidden = false;
   } else {
     metaTags.hidden = true;
+  }
+
+  const exhList = field(artwork, 'exhibitions');
+  const exhItems = Array.isArray(exhList) && exhList.length ? exhList : null;
+  if (exhItems) {
+    metaExhLabel.textContent = t('exhibitions');
+    metaExhList.innerHTML = exhItems.map(e => `<li>${e}</li>`).join('');
+    metaExhibitions.hidden = false;
+  } else {
+    metaExhibitions.hidden = true;
   }
 
   if (artwork.available == null) {
