@@ -4,6 +4,7 @@
  */
 
 import { t, field } from './i18n.js';
+import { R2_BASE } from './config.js';
 
 const grid       = document.getElementById('gallery');
 const filtersNav = document.getElementById('filters');
@@ -107,10 +108,10 @@ export function render(artworks) {
     figure.dataset.index = index;
 
     const img = document.createElement('img');
-    img.src     = `images/thumbs/${artwork.id}.jpg`;
+    img.src     = `${R2_BASE}/thumbs/${artwork.id}.jpg`;
     img.alt     = field(artwork, 'title');
     img.loading = 'lazy';
-    img.onerror = () => { img.src = 'images/placeholder.svg'; };
+    img.onerror = () => { img.src = 'images/placeholder.svg'; img.onerror = null; };
 
     const caption = document.createElement('figcaption');
     const metaParts = [
