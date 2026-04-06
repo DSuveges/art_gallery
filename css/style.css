@@ -100,6 +100,37 @@ header {
   border-bottom-color: var(--accent);
 }
 
+/* Language switcher */
+.lang-switch {
+  display: flex;
+  justify-content: center;
+  gap: 0.1rem;
+  margin-top: 0.75rem;
+}
+
+.lang-switch button {
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  padding: 0.2rem 0.5rem;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  border-radius: var(--radius);
+  transition: all var(--transition);
+}
+
+.lang-switch button:hover {
+  color: var(--text);
+}
+
+.lang-switch button.active {
+  color: var(--text);
+  border-color: var(--border);
+  background: var(--surface);
+}
+
 /* ============================================================
    Filter bars
    ============================================================ */
@@ -338,6 +369,18 @@ header {
   color: var(--text-muted);
   flex: 1;
 }
+
+/* Enquire link */
+.enquire-link {
+  font-family: var(--font-ui);
+  font-size: 0.82rem;
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  align-self: flex-start;
+  transition: opacity var(--transition);
+}
+.enquire-link:hover { opacity: 0.7; }
 
 /* Tags */
 .tag-list {

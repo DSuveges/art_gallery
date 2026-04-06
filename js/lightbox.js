@@ -1,9 +1,10 @@
 /**
- * Lightbox — opens an artwork in full view with its metadata.
- * Navigation cycles through the currently visible (filtered) set.
+ * Lightbox — full-screen artwork view with metadata.
+ * Re-populates on 'langchange' if currently open.
  */
 
 import { getVisible } from './gallery.js';
+import { t, field } from './i18n.js';
 
 const lightbox  = document.getElementById('lightbox');
 const backdrop  = document.getElementById('lightbox-backdrop');
@@ -14,7 +15,9 @@ const btnNext   = document.getElementById('lightbox-next');
 const metaTitle = document.getElementById('meta-title');
 const metaList  = document.getElementById('meta-details');
 const metaDesc  = document.getElementById('meta-description');
+const metaTags  = document.getElementById('meta-tags');
 const metaBadge = document.getElementById('meta-available');
+const metaEnquire = document.getElementById('meta-enquire');
 
 let currentIndex = 0;
 
@@ -46,37 +49,44 @@ function navigate(dir) {
 
 function populate(artwork) {
   img.src = `images/large/${artwork.id}.jpg`;
-  img.alt = artwork.title;
+  img.alt = field(artwork, 'title');
   img.onerror = () => { img.src = 'images/placeholder.svg'; };
 
-  metaTitle.textContent = artwork.title;
+  metaTitle.textContent = field(artwork, 'title');
+
+  const techKey    = `technique_${artwork.technique}`;
+  const supportKey = `support_${artwork.support}`;
 
   const rows = [
-    ['Year',       artwork.year],
-    ['Technique',  capitalise(artwork.technique)],
-    ['Dimensions', artwork.dimensions],
-    ['Support',    capitalise(artwork.support)],
+    [t('meta_year'),       artwork.year],
+    [t('meta_technique'),  t(techKey) !== techKey ? t(techKey) : capitalise(artwork.technique)],
+    [t('meta_dimensions'), artwork.dimensions],
+    [t('meta_support'),    t(supportKey) !== supportKey ? t(supportKey) : capitalise(artwork.support)],
   ];
 
   metaList.innerHTML = rows
     .map(([label, value]) => `<dt>${label}</dt><dd>${value}</dd>`)
     .join('');
 
-  // Tags
-  const tagsEl = document.getElementById('meta-tags');
+  metaDesc.textContent = field(artwork, 'description');
+
   if (artwork.tags && artwork.tags.length) {
-    tagsEl.innerHTML = artwork.tags
-      .map(t => `<span class="tag">${capitalise(t)}</span>`)
+    metaTags.innerHTML = artwork.tags
+      .map(tag => `<span class="tag">${capitalise(tag)}</span>`)
       .join('');
-    tagsEl.hidden = false;
+    metaTags.hidden = false;
   } else {
-    tagsEl.hidden = true;
+    metaTags.hidden = true;
   }
 
-  metaDesc.textContent = artwork.description || '';
+  metaBadge.textContent = artwork.available ? t('available') : t('sold');
+  metaBadge.className   = 'badge ' + (artwork.available ? 'badge-available' : 'badge-sold');
 
-  metaBadge.textContent   = artwork.available ? 'Available' : 'Sold';
-  metaBadge.className     = 'badge ' + (artwork.available ? 'badge-available' : 'badge-sold');
+  if (metaEnquire) {
+    const subject = encodeURIComponent(`${t('enquire')}: ${field(artwork, 'title')}`);
+    metaEnquire.href        = `mailto:?subject=${subject}`;
+    metaEnquire.textContent = t('enquire');
+  }
 
   updateNavButtons();
 }
@@ -87,10 +97,9 @@ function updateNavButtons() {
   btnNext.disabled = total <= 1;
 }
 
-// ---------- Event wiring ----------
+// ---------- Init ----------
 
 export function init() {
-  // Open via click on gallery cards (event delegation)
   document.getElementById('gallery').addEventListener('click', e => {
     const card = e.target.closest('.card');
     if (!card) return;
@@ -102,17 +111,15 @@ export function init() {
   btnPrev.addEventListener('click', () => navigate(-1));
   btnNext.addEventListener('click', () => navigate(+1));
 
-  // Keyboard navigation
   document.addEventListener('keydown', e => {
     if (!lightbox.classList.contains('open')) return;
     switch (e.key) {
-      case 'Escape':    close();         break;
-      case 'ArrowLeft': navigate(-1);    break;
-      case 'ArrowRight':navigate(+1);    break;
+      case 'Escape':     close();      break;
+      case 'ArrowLeft':  navigate(-1); break;
+      case 'ArrowRight': navigate(+1); break;
     }
   });
 
-  // Touch swipe
   let touchStartX = 0;
   lightbox.addEventListener('touchstart', e => {
     touchStartX = e.changedTouches[0].clientX;
@@ -122,6 +129,13 @@ export function init() {
     if (Math.abs(dx) < 40) return;
     navigate(dx < 0 ? +1 : -1);
   }, { passive: true });
+
+  // Re-populate if language changes while lightbox is open
+  document.addEventListener('langchange', () => {
+    if (lightbox.classList.contains('open')) {
+      populate(getVisible()[currentIndex]);
+    }
+  });
 }
 
 // ---------- Helpers ----------
