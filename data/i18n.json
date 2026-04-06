@@ -41,7 +41,8 @@
     "tag_nature":             "Nature",
     "tag_cityscape":          "Cityscape",
     "tag_abstract":           "Abstract",
-    "copyright":              "© {years} H. I. Adrienne. All rights reserved."
+    "copyright":              "© {years} H. I. Adrienne. All rights reserved.",
+    "enquiries":              "For enquiries, contact"
   },
   "hu": {
     "nav_works":              "Munkák",
@@ -85,6 +86,7 @@
     "tag_nature":             "Természet",
     "tag_cityscape":          "Városkép",
     "tag_abstract":           "Absztrakt",
-    "copyright":              "© {years} H. I. Adrienne. Minden jog fenntartva."
+    "copyright":              "© {years} H. I. Adrienne. Minden jog fenntartva.",
+    "enquiries":              "Érdeklődés esetén írjon"
   }
 }
