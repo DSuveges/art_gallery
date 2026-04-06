@@ -7,6 +7,7 @@
     "dimensions": "60 × 80 cm",
     "support": "canvas",
     "description": "A study of early light breaking across the water, painted en plein air over three consecutive mornings.",
+    "tags": ["seascape", "plein air"],
     "available": true
   },
   {
@@ -17,6 +18,7 @@
     "dimensions": "40 × 50 cm",
     "support": "linen",
     "description": "The ochre and amber of the fields just before harvest. Painted from memory in the studio.",
+    "tags": ["landscape"],
     "available": false
   },
   {
@@ -27,6 +29,7 @@
     "dimensions": "30 × 40 cm",
     "support": "paper",
     "description": "A single session study — wet into wet — capturing the muted palette of a January afternoon.",
+    "tags": ["landscape", "plein air"],
     "available": true
   },
   {
@@ -37,6 +40,7 @@
     "dimensions": "25 × 35 cm",
     "support": "board",
     "description": "An exercise in warm and cool contrast. The lemons were from the garden.",
+    "tags": ["still life"],
     "available": true
   },
   {
@@ -47,6 +51,7 @@
     "dimensions": "28 × 38 cm",
     "support": "paper",
     "description": "Looking west along the clifftop track at dusk. The colour of the sea at that hour is unrepeatable.",
+    "tags": ["seascape", "plein air"],
     "available": false
   },
   {
@@ -57,6 +62,7 @@
     "dimensions": "50 × 70 cm",
     "support": "paper",
     "description": "Twenty-minute pose, natural north light. One of a series of quick studies made over the winter.",
+    "tags": ["portrait"],
     "available": true
   },
   {
@@ -67,6 +73,7 @@
     "dimensions": "45 × 45 cm",
     "support": "canvas",
     "description": "Domestic interior. The chair belonged to my grandmother. The light through the window does exactly this at 4pm in March.",
+    "tags": ["interior", "still life"],
     "available": false
   },
   {
@@ -77,6 +84,7 @@
     "dimensions": "35 × 50 cm",
     "support": "paper",
     "description": "The estuary at low tide reveals a landscape that exists for only a few hours each day. Painted on location.",
+    "tags": ["seascape", "plein air"],
     "available": true
   }
 ]

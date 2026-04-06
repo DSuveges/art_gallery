@@ -1,35 +1,92 @@
 /**
- * Renders the artwork grid and filter bar.
+ * Renders the artwork grid and filter bars.
+ *
+ * Two independent filter rows:
+ *   - Technique  (oil, watercolour, …)
+ *   - Tags       (animals, portraits, Italy trip, …)
+ *
+ * Both default to "All". Active selections combine with AND:
+ * only works matching both the selected technique and the selected
+ * tag are shown.
  */
 
-const grid = document.getElementById('gallery');
-const filtersNav = document.getElementById('filters');
+const grid        = document.getElementById('gallery');
+const filtersNav  = document.getElementById('filters');
 
 let _allArtworks = [];
-let _visible = [];  // currently displayed subset (respects active filter)
+let _visible     = [];
+
+let _activeTechnique = 'All';
+let _activeTag       = 'All';
 
 export function getVisible() {
   return _visible;
 }
 
-// ---------- Filter bar ----------
+// ---------- Filter bars ----------
 
 function buildFilters(artworks) {
-  const techniques = ['All', ...new Set(artworks.map(a => a.technique))];
+  const techniques = ['All', ...new Set(artworks.map(a => a.technique).filter(Boolean))];
+  const tags       = ['All', ...new Set(artworks.flatMap(a => a.tags || []))].sort((a, b) =>
+    a === 'All' ? -1 : b === 'All' ? 1 : a.localeCompare(b)
+  );
 
-  techniques.forEach((tech, i) => {
+  // Only show tag row if at least one artwork has tags
+  const hasTags = artworks.some(a => a.tags && a.tags.length);
+
+  const rowTech = makeFilterRow('Technique', techniques, 'technique', val => {
+    _activeTechnique = val;
+    applyFilters();
+  });
+  filtersNav.appendChild(rowTech);
+
+  if (hasTags) {
+    const rowTags = makeFilterRow('Series & themes', tags, 'tag', val => {
+      _activeTag = val;
+      applyFilters();
+    });
+    filtersNav.appendChild(rowTags);
+  }
+}
+
+function makeFilterRow(label, values, type, onChange) {
+  const row = document.createElement('div');
+  row.className = 'filter-row';
+
+  const lbl = document.createElement('span');
+  lbl.className = 'filter-row-label';
+  lbl.textContent = label;
+  row.appendChild(lbl);
+
+  const pills = document.createElement('div');
+  pills.className = 'filter-pills';
+
+  values.forEach((val, i) => {
     const btn = document.createElement('button');
-    btn.textContent = tech === 'All' ? 'All' : capitalise(tech);
-    btn.dataset.technique = tech;
+    btn.textContent = val === 'All' ? 'All' : capitalise(val);
+    btn.dataset[type] = val;
     btn.classList.toggle('active', i === 0);
     btn.addEventListener('click', () => {
-      filtersNav.querySelectorAll('button').forEach(b => b.classList.remove('active'));
+      pills.querySelectorAll('button').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
-      const filtered = tech === 'All' ? _allArtworks : _allArtworks.filter(a => a.technique === tech);
-      render(filtered);
+      onChange(val);
     });
-    filtersNav.appendChild(btn);
+    pills.appendChild(btn);
   });
+
+  row.appendChild(pills);
+  return row;
+}
+
+// ---------- Filtering ----------
+
+function applyFilters() {
+  const result = _allArtworks.filter(a => {
+    const techMatch = _activeTechnique === 'All' || a.technique === _activeTechnique;
+    const tagMatch  = _activeTag === 'All' || (a.tags && a.tags.includes(_activeTag));
+    return techMatch && tagMatch;
+  });
+  render(result);
 }
 
 // ---------- Grid rendering ----------
@@ -46,12 +103,12 @@ export function render(artworks) {
   artworks.forEach((artwork, index) => {
     const figure = document.createElement('figure');
     figure.className = 'card';
-    figure.dataset.id = artwork.id;
+    figure.dataset.id    = artwork.id;
     figure.dataset.index = index;
 
     const img = document.createElement('img');
-    img.src = `images/thumbs/${artwork.id}.jpg`;
-    img.alt = artwork.title;
+    img.src     = `images/thumbs/${artwork.id}.jpg`;
+    img.alt     = artwork.title;
     img.loading = 'lazy';
     img.onerror = () => { img.src = 'images/placeholder.svg'; };
 
@@ -78,5 +135,6 @@ export function init(artworks) {
 // ---------- Helpers ----------
 
 function capitalise(str) {
+  if (!str) return '';
   return str.charAt(0).toUpperCase() + str.slice(1);
 }

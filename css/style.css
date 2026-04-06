@@ -101,43 +101,72 @@ header {
 }
 
 /* ============================================================
-   Filter bar
+   Filter bars
    ============================================================ */
 #filters {
-  display: flex;
-  gap: 0.5rem;
-  padding: 1.25rem var(--gap);
-  overflow-x: auto;
-  white-space: nowrap;
   border-bottom: 1px solid var(--border);
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
 }
-#filters::-webkit-scrollbar { display: none; }
 
-#filters button {
+.filter-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem var(--gap);
+  border-top: 1px solid var(--border);
+}
+
+.filter-row:first-child {
+  border-top: none;
+}
+
+.filter-row-label {
   font-family: var(--font-ui);
-  font-size: 0.8rem;
-  letter-spacing: 0.06em;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  padding: 0.4rem 1rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+  min-width: 7rem;
+}
+
+.filter-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.filter-pills button {
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 0.3rem 0.85rem;
   border: 1px solid var(--border);
   border-radius: 2rem;
   background: transparent;
   color: var(--text-muted);
   cursor: pointer;
   transition: all var(--transition);
+  white-space: nowrap;
 }
 
-#filters button:hover {
+.filter-pills button:hover {
   border-color: var(--accent);
   color: var(--accent);
 }
 
-#filters button.active {
+.filter-pills button.active {
   background: var(--accent);
   border-color: var(--accent);
   color: #fff;
+}
+
+@media (max-width: 600px) {
+  .filter-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
 }
 
 /* ============================================================
@@ -308,6 +337,24 @@ header {
   line-height: 1.7;
   color: var(--text-muted);
   flex: 1;
+}
+
+/* Tags */
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.tag {
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.6rem;
+  border-radius: 2rem;
+  background: var(--border);
+  color: var(--text-muted);
 }
 
 /* Availability badge */

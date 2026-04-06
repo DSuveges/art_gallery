@@ -62,6 +62,17 @@ function populate(artwork) {
     .map(([label, value]) => `<dt>${label}</dt><dd>${value}</dd>`)
     .join('');
 
+  // Tags
+  const tagsEl = document.getElementById('meta-tags');
+  if (artwork.tags && artwork.tags.length) {
+    tagsEl.innerHTML = artwork.tags
+      .map(t => `<span class="tag">${capitalise(t)}</span>`)
+      .join('');
+    tagsEl.hidden = false;
+  } else {
+    tagsEl.hidden = true;
+  }
+
   metaDesc.textContent = artwork.description || '';
 
   metaBadge.textContent   = artwork.available ? 'Available' : 'Not available';
