@@ -18,15 +18,29 @@
     "contact_location":       "Location",
     "contact_online":         "Online",
     "contact_representation": "Representation",
+
     "technique_oil":          "Oil",
+    "technique_mixed_oil":    "Mixed media, oil",
     "technique_watercolour":  "Watercolour",
     "technique_charcoal":     "Charcoal",
     "technique_acrylic":      "Acrylic",
     "technique_pastel":       "Pastel",
+    "technique_graphite":     "Graphite",
+    "technique_pencil":       "Pencil",
+
     "support_canvas":         "Canvas",
     "support_linen":          "Linen",
     "support_paper":          "Paper",
-    "support_board":          "Board"
+    "support_board":          "Board",
+    "support_photo_paper":    "Photo paper",
+
+    "tag_portrait":           "Portrait",
+    "tag_still_life":         "Still life",
+    "tag_landscape":          "Landscape",
+    "tag_el_camino":          "El Camino",
+    "tag_nature":             "Nature",
+    "tag_cityscape":          "Cityscape",
+    "tag_abstract":           "Abstract"
   },
   "hu": {
     "nav_works":              "Munkák",
@@ -47,14 +61,28 @@
     "contact_location":       "Helyszín",
     "contact_online":         "Online",
     "contact_representation": "Képviselet",
+
     "technique_oil":          "Olaj",
+    "technique_mixed_oil":    "Vegyes technika, olaj",
     "technique_watercolour":  "Akvarell",
     "technique_charcoal":     "Szén",
     "technique_acrylic":      "Akril",
     "technique_pastel":       "Pasztell",
+    "technique_graphite":     "Grafit",
+    "technique_pencil":       "Ceruza",
+
     "support_canvas":         "Vászon",
     "support_linen":          "Len",
     "support_paper":          "Papír",
-    "support_board":          "Fatábla"
+    "support_board":          "Fatábla",
+    "support_photo_paper":    "Fotópapír",
+
+    "tag_portrait":           "Portré",
+    "tag_still_life":         "Csendélet",
+    "tag_landscape":          "Tájkép",
+    "tag_el_camino":          "El Camino",
+    "tag_nature":             "Természet",
+    "tag_cityscape":          "Városkép",
+    "tag_abstract":           "Absztrakt"
   }
 }

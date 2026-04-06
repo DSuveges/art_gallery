@@ -59,19 +59,16 @@ function populate(artwork) {
 
   metaTitle.textContent = field(artwork, 'title');
 
-  const techKey    = `technique_${artwork.technique}`;
-  const supportKey = `support_${artwork.support}`;
-
   const rows = [
-    [t('meta_year'),       artwork.year],
-    [t('meta_technique'),  artwork.technique && (t(techKey) !== techKey ? t(techKey) : capitalise(artwork.technique))],
-    [t('meta_dimensions'), artwork.dimensions],
-    [t('meta_support'),    artwork.support   && (t(supportKey) !== supportKey ? t(supportKey) : capitalise(artwork.support))],
+    { label: t('meta_year'),       value: artwork.year },
+    { label: t('meta_technique'),  value: artwork.technique  && t(`technique_${artwork.technique}`) },
+    { label: t('meta_dimensions'), value: artwork.dimensions },
+    { label: t('meta_support'),    value: artwork.support    && t(`support_${artwork.support}`) },
   ];
 
   metaList.innerHTML = rows
-    .filter(([, value]) => value != null && value !== '' && value !== false)
-    .map(([label, value]) => `<dt>${label}</dt><dd>${value}</dd>`)
+    .filter(({ value }) => value != null && value !== '' && value !== false)
+    .map(({ label, value }) => `<dt>${label}</dt><dd>${value}</dd>`)
     .join('');
 
   const desc = field(artwork, 'description');
@@ -80,7 +77,7 @@ function populate(artwork) {
 
   if (artwork.tags && artwork.tags.length) {
     metaTags.innerHTML = artwork.tags
-      .map(tag => `<span class="tag">${capitalise(tag)}</span>`)
+      .map(tag => `<span class="tag">${t(`tag_${tag}`)}</span>`)
       .join('');
     metaTags.hidden = false;
   } else {

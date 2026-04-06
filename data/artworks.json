@@ -4,12 +4,14 @@
     "title": "Mongolian man",
     "title_hu": "Mongol férfi",
     "year": 2022,
-    "technique": "pasztel",
+    "technique": "pastel",
     "dimensions": "60 × 80 cm",
-    "support": "papír",
+    "support": "paper",
     "description": null,
     "description_hu": null,
-    "tags": ["portré"],
+    "tags": [
+      "portrait"
+    ],
     "exhibitions": [],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
@@ -21,12 +23,14 @@
     "title": "Mirror images",
     "title_hu": "Tükör kép",
     "year": 2026,
-    "technique": "mixed, oil",
+    "technique": "mixed_oil",
     "dimensions": "50 × 70 cm",
     "support": "canvas",
     "description": "Capturing how the spirit remains young.",
     "description_hu": "A lélek fiatal marad.",
-    "tags": ["portré"],
+    "tags": [
+      "portrait"
+    ],
     "exhibitions": [],
     "exhibitions_hu": [],
     "available": true
@@ -36,12 +40,14 @@
     "title": "Resting instruments",
     "title_hu": "Pihenő hangszerek",
     "year": 2022,
-    "technique": "acrilic",
+    "technique": "acrylic",
     "dimensions": "50 × 70 cm",
     "support": "canvas",
     "description": null,
     "description_hu": null,
-    "tags": ["still life"],
+    "tags": [
+      "still_life"
+    ],
     "exhibitions": [],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
@@ -53,12 +59,15 @@
     "title": "On the road",
     "title_hu": "Hajnali indulás",
     "year": 2023,
-    "technique": "mixed, oil",
+    "technique": "mixed_oil",
     "dimensions": "50 × 70 cm",
     "support": "canvas",
     "description": "Early morning start on the road to Santiago",
     "description_hu": "Reggeli indulás Santiago felé",
-    "tags": ["landscape", "El Camino"],
+    "tags": [
+      "landscape",
+      "el_camino"
+    ],
     "exhibitions": [],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
@@ -75,7 +84,10 @@
     "support": "canvas",
     "description": null,
     "description_hu": null,
-    "tags": ["landscape", "El Camino"],
+    "tags": [
+      "landscape",
+      "el_camino"
+    ],
     "exhibitions": [],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
@@ -92,7 +104,9 @@
     "support": "paper",
     "description": null,
     "description_hu": null,
-    "tags": ["portrait"],
+    "tags": [
+      "portrait"
+    ],
     "exhibitions": [],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
@@ -106,10 +120,12 @@
     "year": 2023,
     "technique": "graphite",
     "dimensions": "50 × 70 cm",
-    "support": "photo paper",
+    "support": "photo_paper",
     "description": "Framed under anti-reflexing glass.",
     "description_hu": "Tükröződés mentes üveggel keretezve.",
-    "tags": ["portrait"],
+    "tags": [
+      "portrait"
+    ],
     "exhibitions": [],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
@@ -121,12 +137,14 @@
     "title": "",
     "title_hu": "Kolostor, zarándok szállás",
     "year": 2023,
-    "technique": "mixed, oil",
+    "technique": "mixed_oil",
     "dimensions": "40 × 50 cm",
     "support": "canvas",
     "description": null,
     "description_hu": null,
-    "tags": ["El Camino"],
+    "tags": [
+      "el_camino"
+    ],
     "exhibitions": [],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
@@ -138,12 +156,14 @@
     "title": "",
     "title_hu": "Leselkedő mókus",
     "year": 2024,
-    "technique": "aqurell",
+    "technique": "watercolour",
     "dimensions": "30 × 40 cm",
     "support": "paper",
     "description": null,
     "description_hu": null,
-    "tags": ["természet"],
+    "tags": [
+      "nature"
+    ],
     "exhibitions": [],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
@@ -155,12 +175,14 @@
     "title": "",
     "title_hu": "Női arc",
     "year": 2023,
-    "technique": "mixed, oil",
+    "technique": "mixed_oil",
     "dimensions": "30 × 40 cm",
     "support": "canvas",
     "description": null,
     "description_hu": null,
-    "tags": ["portrait"],
+    "tags": [
+      "portrait"
+    ],
     "exhibitions": [],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
@@ -172,12 +194,14 @@
     "title": "",
     "title_hu": "Női arc",
     "year": 2023,
-    "technique": "acrilic",
+    "technique": "acrylic",
     "dimensions": "30 × 40 cm",
     "support": "canvas",
     "description": null,
     "description_hu": null,
-    "tags": ["portrait"],
+    "tags": [
+      "portrait"
+    ],
     "exhibitions": [],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
@@ -189,12 +213,14 @@
     "title": "",
     "title_hu": "Szeretett városom, Esztergom",
     "year": 2026,
-    "technique": "mixed, oil",
+    "technique": "mixed_oil",
     "dimensions": "40 × 80 cm",
     "support": "canvas",
     "description": null,
     "description_hu": null,
-    "tags": ["városkép"],
+    "tags": [
+      "cityscape"
+    ],
     "exhibitions": [],
     "exhibitions_hu": [],
     "available": true
@@ -204,12 +230,14 @@
     "title": "",
     "title_hu": "Élet",
     "year": 2024,
-    "technique": "pasztel",
+    "technique": "pastel",
     "dimensions": "50 × 70 cm",
     "support": "paper",
     "description": null,
     "description_hu": null,
-    "tags": ["abstract"],
+    "tags": [
+      "abstract"
+    ],
     "exhibitions": [],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
@@ -221,12 +249,14 @@
     "title": "",
     "title_hu": "Kenyerek",
     "year": 2023,
-    "technique": "pasztel",
+    "technique": "pastel",
     "dimensions": "50 × 70 cm",
     "support": "paper",
     "description": null,
     "description_hu": null,
-    "tags": ["abstract"],
+    "tags": [
+      "abstract"
+    ],
     "exhibitions": [],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
@@ -238,12 +268,14 @@
     "title": "",
     "title_hu": "Barátaink 1",
     "year": 2025,
-    "technique": "mixed, oil",
+    "technique": "mixed_oil",
     "dimensions": "40 × 70 cm",
     "support": "canvas",
     "description": null,
     "description_hu": null,
-    "tags": ["természet"],
+    "tags": [
+      "nature"
+    ],
     "exhibitions": [],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza",
@@ -256,12 +288,14 @@
     "title": "",
     "title_hu": "Barátaink 2",
     "year": 2025,
-    "technique": "mixed, oil",
+    "technique": "mixed_oil",
     "dimensions": "40 × 70 cm",
     "support": "canvas",
     "description": null,
     "description_hu": null,
-    "tags": ["természet"],
+    "tags": [
+      "nature"
+    ],
     "exhibitions": [],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza",
@@ -274,12 +308,14 @@
     "title": "",
     "title_hu": "Barátaink 3",
     "year": 2025,
-    "technique": "mixed, oil",
+    "technique": "mixed_oil",
     "dimensions": "40 × 70 cm",
     "support": "canvas",
     "description": null,
     "description_hu": null,
-    "tags": ["természet"],
+    "tags": [
+      "nature"
+    ],
     "exhibitions": [],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza",
@@ -292,12 +328,14 @@
     "title": "",
     "title_hu": "Csodálat",
     "year": 2026,
-    "technique": "mixed, oil",
+    "technique": "mixed_oil",
     "dimensions": "40 × 70 cm",
     "support": "canvas",
     "description": null,
     "description_hu": "Santiago de Compostela katedrális orgona.",
-    "tags": ["El Camino"],
+    "tags": [
+      "el_camino"
+    ],
     "exhibitions": [],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
@@ -309,12 +347,14 @@
     "title": "",
     "title_hu": "Bota fumero",
     "year": 2023,
-    "technique": "mixed, oil",
+    "technique": "mixed_oil",
     "dimensions": "40 × 70 cm",
     "support": "canvas",
     "description": null,
     "description_hu": "Santiago de Compostela katedrális, füstölő.",
-    "tags": ["El Camino"],
+    "tags": [
+      "el_camino"
+    ],
     "exhibitions": [],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
@@ -326,12 +366,15 @@
     "title": "",
     "title_hu": "Virágzó vadkömény",
     "year": 2023,
-    "technique": "mixed, oil",
+    "technique": "mixed_oil",
     "dimensions": "40 × 70 cm",
     "support": "canvas",
     "description": null,
     "description_hu": null,
-    "tags": ["El Camino", "természet"],
+    "tags": [
+      "el_camino",
+      "nature"
+    ],
     "exhibitions": [],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
@@ -343,12 +386,15 @@
     "title": "",
     "title_hu": "Hegyeskő",
     "year": 2023,
-    "technique": "mixed, oil",
+    "technique": "mixed_oil",
     "dimensions": "50 × 70 cm",
     "support": "canvas",
     "description": null,
     "description_hu": null,
-    "tags": ["tájkép", "természet"],
+    "tags": [
+      "landscape",
+      "nature"
+    ],
     "exhibitions": [],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
@@ -365,7 +411,9 @@
     "support": "paper",
     "description": null,
     "description_hu": null,
-    "tags": ["természet"],
+    "tags": [
+      "nature"
+    ],
     "exhibitions": [],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
@@ -377,12 +425,14 @@
     "title": "",
     "title_hu": "Kapás van",
     "year": 2025,
-    "technique": "mixed, oil",
+    "technique": "mixed_oil",
     "dimensions": "40 × 50 cm",
     "support": "canvas",
     "description": "For comission.",
     "description_hu": "Megrendelésre készült",
-    "tags": ["természet"],
+    "tags": [
+      "nature"
+    ],
     "exhibitions": [],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
@@ -394,12 +444,15 @@
     "title": "",
     "title_hu": "Józsefváros",
     "year": 2022,
-    "technique": "acrilic",
+    "technique": "acrylic",
     "dimensions": "50 × 70 cm",
     "support": "canvas",
     "description": null,
     "description_hu": null,
-    "tags": ["természet", "városkép"],
+    "tags": [
+      "nature",
+      "cityscape"
+    ],
     "exhibitions": [],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"

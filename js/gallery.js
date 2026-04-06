@@ -73,9 +73,8 @@ function makeFilterRow(label, values, type, onChange, activeValue) {
 }
 
 function translateFilterValue(type, val) {
-  if (type === 'technique') {
-    return t(`technique_${val}`) !== `technique_${val}` ? t(`technique_${val}`) : capitalise(val);
-  }
+  if (type === 'technique') return t(`technique_${val}`);
+  if (type === 'tag')       return t(`tag_${val}`);
   return capitalise(val);
 }
 
@@ -116,9 +115,7 @@ export function render(artworks) {
     const caption = document.createElement('figcaption');
     const metaParts = [
       artwork.year,
-      artwork.technique && (t(`technique_${artwork.technique}`) !== `technique_${artwork.technique}`
-        ? t(`technique_${artwork.technique}`)
-        : capitalise(artwork.technique)),
+      artwork.technique && t(`technique_${artwork.technique}`),
     ].filter(Boolean);
     caption.innerHTML = `
       <span class="card-title">${field(artwork, 'title')}</span>
