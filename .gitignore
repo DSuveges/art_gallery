@@ -17,6 +17,9 @@ dist/
 build/
 _site/
 
+# Large images are stored in Cloudflare R2, not the repo
+images/large/
+
 # Environment files
 .env
 .env.local
