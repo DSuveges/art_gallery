@@ -11,7 +11,9 @@
     "description_hu": null,
     "tags": ["portré"],
     "exhibitions": [],
-    "exhibitions_hu": [],
+    "exhibitions_hu": [
+      "2025 - Tokod, értékek és gyűjtemények háza"
+    ],
     "available": true
   },
   {
@@ -41,7 +43,9 @@
     "description_hu": null,
     "tags": ["still life"],
     "exhibitions": [],
-    "exhibitions_hu": [],
+    "exhibitions_hu": [
+      "2025 - Tokod, értékek és gyűjtemények háza"
+    ],
     "available": true
   },
   {
@@ -56,7 +60,9 @@
     "description_hu": "Reggeli indulás Santiago felé",
     "tags": ["landscape", "El Camino"],
     "exhibitions": [],
-    "exhibitions_hu": [],
+    "exhibitions_hu": [
+      "2025 - Tokod, értékek és gyűjtemények háza"
+    ],
     "available": true
   },
   {
@@ -71,7 +77,9 @@
     "description_hu": null,
     "tags": ["landscape", "El Camino"],
     "exhibitions": [],
-    "exhibitions_hu": [],
+    "exhibitions_hu": [
+      "2025 - Tokod, értékek és gyűjtemények háza"
+    ],
     "available": true
   },
   {
@@ -86,7 +94,9 @@
     "description_hu": null,
     "tags": ["portrait"],
     "exhibitions": [],
-    "exhibitions_hu": [],
+    "exhibitions_hu": [
+      "2025 - Tokod, értékek és gyűjtemények háza"
+    ],
     "available": true
   },
   {
@@ -101,7 +111,9 @@
     "description_hu": "Tükröződés mentes üveggel keretezve.",
     "tags": ["portrait"],
     "exhibitions": [],
-    "exhibitions_hu": [],
+    "exhibitions_hu": [
+      "2025 - Tokod, értékek és gyűjtemények háza"
+    ],
     "available": true
   },
   {
@@ -116,7 +128,9 @@
     "description_hu": null,
     "tags": ["El Camino"],
     "exhibitions": [],
-    "exhibitions_hu": [],
+    "exhibitions_hu": [
+      "2025 - Tokod, értékek és gyűjtemények háza"
+    ],
     "available": true
   },
   {
@@ -131,7 +145,9 @@
     "description_hu": null,
     "tags": ["természet"],
     "exhibitions": [],
-    "exhibitions_hu": [],
+    "exhibitions_hu": [
+      "2025 - Tokod, értékek és gyűjtemények háza"
+    ],
     "available": true
   },
   {
@@ -146,7 +162,9 @@
     "description_hu": null,
     "tags": ["portrait"],
     "exhibitions": [],
-    "exhibitions_hu": [],
+    "exhibitions_hu": [
+      "2025 - Tokod, értékek és gyűjtemények háza"
+    ],
     "available": true
   },
   {
@@ -161,7 +179,9 @@
     "description_hu": null,
     "tags": ["portrait"],
     "exhibitions": [],
-    "exhibitions_hu": [],
+    "exhibitions_hu": [
+      "2025 - Tokod, értékek és gyűjtemények háza"
+    ],
     "available": true
   },
   {
@@ -176,7 +196,9 @@
     "description_hu": null,
     "tags": ["városkép"],
     "exhibitions": [],
-    "exhibitions_hu": [],
+    "exhibitions_hu": [
+      "2025 - Tokod, értékek és gyűjtemények háza"
+    ],
     "available": true
   },
   {
@@ -191,7 +213,9 @@
     "description_hu": null,
     "tags": ["abstract"],
     "exhibitions": [],
-    "exhibitions_hu": [],
+    "exhibitions_hu": [
+      "2025 - Tokod, értékek és gyűjtemények háza"
+    ],
     "available": true
   },
   {
@@ -206,7 +230,9 @@
     "description_hu": null,
     "tags": ["abstract"],
     "exhibitions": [],
-    "exhibitions_hu": [],
+    "exhibitions_hu": [
+      "2025 - Tokod, értékek és gyűjtemények háza"
+    ],
     "available": true
   },
   {
@@ -221,7 +247,10 @@
     "description_hu": null,
     "tags": ["természet"],
     "exhibitions": [],
-    "exhibitions_hu": [],
+    "exhibitions_hu": [
+      "2025 - Tokod, értékek és gyűjtemények háza",
+      "2025 - Budapest, Valdor Art művészeti iskola (Közönség díj 3. helyezés)"
+    ],
     "available": true
   },
   {
@@ -236,7 +265,10 @@
     "description_hu": null,
     "tags": ["természet"],
     "exhibitions": [],
-    "exhibitions_hu": [],
+    "exhibitions_hu": [
+      "2025 - Tokod, értékek és gyűjtemények háza",
+      "2025 - Budapest, Valdor Art művészeti iskola (Közönség díj 3. helyezés)"
+    ],
     "available": true
   },
   {
@@ -251,7 +283,10 @@
     "description_hu": null,
     "tags": ["természet"],
     "exhibitions": [],
-    "exhibitions_hu": [],
+    "exhibitions_hu": [
+      "2025 - Tokod, értékek és gyűjtemények háza",
+      "2025 - Budapest, Valdor Art művészeti iskola (Közönség díj 3. helyezés)"
+    ],
     "available": true
   },
   {
@@ -266,7 +301,9 @@
     "description_hu": "Santiago de Compostela katedrális orgona.",
     "tags": ["El Camino"],
     "exhibitions": [],
-    "exhibitions_hu": [],
+    "exhibitions_hu": [
+      "2025 - Tokod, értékek és gyűjtemények háza"
+    ],
     "available": true
   },
   {
@@ -281,7 +318,9 @@
     "description_hu": "Santiago de Compostela katedrális, füstölő.",
     "tags": ["El Camino"],
     "exhibitions": [],
-    "exhibitions_hu": [],
+    "exhibitions_hu": [
+      "2025 - Tokod, értékek és gyűjtemények háza"
+    ],
     "available": true
   },
   {
@@ -296,7 +335,9 @@
     "description_hu": null,
     "tags": ["El Camino", "természet"],
     "exhibitions": [],
-    "exhibitions_hu": [],
+    "exhibitions_hu": [
+      "2025 - Tokod, értékek és gyűjtemények háza"
+    ],
     "available": false
   },
   {
@@ -311,7 +352,9 @@
     "description_hu": null,
     "tags": ["tájkép", "természet"],
     "exhibitions": [],
-    "exhibitions_hu": [],
+    "exhibitions_hu": [
+      "2025 - Tokod, értékek és gyűjtemények háza"
+    ],
     "available": false
   },
   {
@@ -326,7 +369,9 @@
     "description_hu": null,
     "tags": ["természet"],
     "exhibitions": [],
-    "exhibitions_hu": [],
+    "exhibitions_hu": [
+      "2025 - Tokod, értékek és gyűjtemények háza"
+    ],
     "available": false
   },
   {
@@ -341,7 +386,26 @@
     "description_hu": null,
     "tags": ["természet"],
     "exhibitions": [],
-    "exhibitions_hu": [],
+    "exhibitions_hu": [
+      "2025 - Tokod, értékek és gyűjtemények háza"
+    ],
     "available": false
+  },
+  {
+    "id": "024",
+    "title": "",
+    "title_hu": "Józsefváros",
+    "year": 2022,
+    "technique": "acrilic",
+    "dimensions": "50 × 70 cm",
+    "support": "canvas",
+    "description": null,
+    "description_hu": null,
+    "tags": ["természet", "városkép"],
+    "exhibitions": [],
+    "exhibitions_hu": [
+      "2025 - Tokod, értékek és gyűjtemények háza"
+    ],
+    "available": true
   }
 ]
