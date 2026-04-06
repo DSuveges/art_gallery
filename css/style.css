@@ -236,11 +236,17 @@ header {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
-  transition: transform 0.4s ease;
+  object-position: 30% 30%;
+  transition: object-position 1.5s ease;
 }
 
 .card:hover img {
-  transform: scale(1.03);
+  animation: img-pan 6s ease-in-out infinite alternate;
+}
+
+@keyframes img-pan {
+  from { object-position: 20% 20%; }
+  to   { object-position: 80% 80%; }
 }
 
 .card figcaption {
