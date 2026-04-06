@@ -5,6 +5,7 @@
 
 import { getVisible } from './gallery.js';
 import { t, field, getLang } from './i18n.js';
+import { R2_BASE } from './config.js';
 
 const lightbox  = document.getElementById('lightbox');
 const backdrop  = document.getElementById('lightbox-backdrop');
@@ -52,10 +53,10 @@ function navigate(dir) {
 // ---------- Populate ----------
 
 function populate(artwork) {
-  img.src = `images/large/${artwork.id}.jpg`;
+  img.src = `${R2_BASE}/large/${artwork.id}.jpg`;
   img.alt = field(artwork, 'title');
   img.onerror = () => { img.src = 'images/placeholder.svg'; };
-  zoomLink.href = `images/large/${artwork.id}.jpg`;
+  zoomLink.href = `${R2_BASE}/large/${artwork.id}.jpg`;
 
   metaTitle.textContent = field(artwork, 'title');
 
