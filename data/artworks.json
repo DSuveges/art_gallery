@@ -5,25 +5,21 @@
     "title_hu": "Mongol férfi",
     "year": 2022,
     "technique": "pastel",
-    "dimensions": "60 × 80 cm",
+    "dimensions": "32 × 46 cm",
     "support": "paper",
     "description": null,
     "description_hu": null,
     "tags": [
       "portrait"
     ],
-    "exhibitions": [
-      "2025 - Tokod, house of treasures and collections"
-    ],
-    "exhibitions_hu": [
-      "2025 - Tokod, értékek és gyűjtemények háza"
-    ],
+    "exhibitions": [],
+    "exhibitions_hu": [],
     "available": true
   },
   {
     "id": "002",
     "title": "Mirror images",
-    "title_hu": "Tükör kép",
+    "title_hu": "Tükörkép",
     "year": 2026,
     "technique": "mixed_oil",
     "dimensions": "50 × 70 cm",
@@ -51,32 +47,36 @@
       "still_life"
     ],
     "exhibitions": [
-      "2025 - Tokod, house of treasures and collections"
+      "2025 - Tokod, house of treasures and collections",
+      "2022 - Budapest, Valdor Art Alternative Draw and Painting School"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod, értékek és gyűjtemények háza"
+      "2025 - Tokod, Értékek és Gyűjtemények Háza",
+      "2022 - Budapest, Valdor Art Alternatív Rajz- és Festő Iskola"
     ],
     "available": true
   },
   {
     "id": "004",
-    "title": "Hitting the road at the crack of dawn",
+    "title": "Crack of dawn",
     "title_hu": "Hajnali indulás",
     "year": 2023,
     "technique": "mixed_oil",
     "dimensions": "50 × 70 cm",
     "support": "canvas",
-    "description": "Early morning start on the road to Santiago. Inspired by the pilgrimage of Camino de Santiago.",
-    "description_hu": "Reggeli indulás Santiago felé. A képet a Szent Jakab zarándoklat inspirálta.",
+    "description": "Early morning start on the road to Santiago, Villares de Órbigo. Inspired by the pilgrimage of Camino de Santiago.",
+    "description_hu": "Reggeli indulás Santiago felé, Villares de Órbigo. A képet a Szent Jakab zarándoklat inspirálta.",
     "tags": [
       "landscape",
       "el_camino"
     ],
     "exhibitions": [
-      "2025 - Tokod, house of treasures and collections"
+      "2025 - Tokod, house of treasures and collections",
+      "2023 - Budapest, Valdor Art Alternative Draw and Painting School"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod, értékek és gyűjtemények háza"
+      "2025 - Tokod,  Értékek és Gyűjtemények Háza",
+      "2023 - Budapest, Valdor Art Alternatív Rajz- és Festő Iskola"
     ],
     "available": true
   },
@@ -88,17 +88,19 @@
     "technique": "watercolour",
     "dimensions": "50 × 70 cm",
     "support": "canvas",
-    "description": "Inspired by the pilgrimage of Camino de Santiago.",
-    "description_hu": "A képet a Szent Jakab zarándoklat inspirálta.",
+    "description": "Cirauqui, Navarra. Inspired by the pilgrimage of Camino de Santiago.",
+    "description_hu": "Cirauqui, Navarra tartomány. A képet a Szent Jakab zarándoklat inspirálta.",
     "tags": [
       "landscape",
       "el_camino"
     ],
     "exhibitions": [
-      "2025 - Tokod, house of treasures and collections"
+      "2025 - Tokod, house of treasures and collections",
+      "2023 - Budapest, Valdor Art Alternative Draw and Painting School"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod, értékek és gyűjtemények háza"
+      "2025 - Tokod, Értékek és Gyűjtemények Háza",
+      "2023 - Budapest, Valdor Art Alternatív Rajz- és Festő Iskola"
     ],
     "available": true
   },
@@ -107,19 +109,21 @@
     "title": "",
     "title_hu": "",
     "year": 2024,
-    "technique": "charcoal",
+    "technique": "mixed_oil",
     "dimensions": "50 × 70 cm",
-    "support": "paper",
+    "support": "canvas",
     "description": null,
     "description_hu": null,
     "tags": [
       "portrait"
     ],
     "exhibitions": [
-      "2025 - Tokod, house of treasures and collections"
+      "2025 - Tokod, house of treasures and collections",
+      "2024 - Budapest, Valdor Art Alternative Draw and Painting School"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod, értékek és gyűjtemények háza"
+      "2025 - Tokod, Értékek és Gyűjtemények Háza",
+      "2024 - Budapest, Valdor Art Alternatív Rajz- és Festő Iskola"
     ],
     "available": true
   },
@@ -129,7 +133,7 @@
     "title_hu": "Szeretet",
     "year": 2023,
     "technique": "graphite",
-    "dimensions": "50 × 70 cm",
+    "dimensions": "35 × 50 cm",
     "support": "photo_paper",
     "description": "Framed under anti-reflexing glass.",
     "description_hu": "Tükröződés mentes üveggel keretezve.",
@@ -137,10 +141,12 @@
       "portrait"
     ],
     "exhibitions": [
-      "2025 - Tokod, house of treasures and collections"
+      "2025 - Tokod, house of treasures and collections",
+      "2025 - Lábatlan, Gerendai Community Centre"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod, értékek és gyűjtemények háza"
+      "2025 - Tokod,  Értékek és Gyűjtemények Háza",
+      "2025 - Lábatlan, Gerendai Közösségi Ház"
     ],
     "available": true
   },
@@ -152,8 +158,8 @@
     "technique": "mixed_oil",
     "dimensions": "40 × 50 cm",
     "support": "canvas",
-    "description": "Inspired by the pilgrimage of Camino de Santiago.",
-    "description_hu": "A képet a Szent Jakab zarándoklat inspirálta.",
+    "description": "Barrios de Colina. Inspired by the pilgrimage of Camino de Santiago.",
+    "description_hu": "Barrios de Colina. A képet a Szent Jakab zarándoklat inspirálta.",
     "tags": [
       "el_camino"
     ],
@@ -161,7 +167,7 @@
       "2025 - Tokod, house of treasures and collections"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod, értékek és gyűjtemények háza"
+      "2025 - Tokod,  Értékek és Gyűjtemények Háza"
     ],
     "available": true
   },
@@ -182,7 +188,7 @@
       "2025 - Tokod, house of treasures and collections"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod, értékek és gyűjtemények háza"
+      "2025 - Tokod,  Értékek és Gyűjtemények Háza"
     ],
     "available": true
   },
@@ -203,7 +209,7 @@
       "2025 - Tokod, house of treasures and collections"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod, értékek és gyűjtemények háza"
+      "2025 - Tokod,  Értékek és Gyűjtemények Háza"
     ],
     "available": true
   },
@@ -224,7 +230,7 @@
       "2025 - Tokod, house of treasures and collections"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod, értékek és gyűjtemények háza"
+      "2025 - Tokod,  Értékek és Gyűjtemények Háza"
     ],
     "available": true
   },
@@ -262,7 +268,7 @@
       "2025 - Tokod, house of treasures and collections"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod, értékek és gyűjtemények háza"
+      "2025 - Tokod,  Értékek és Gyűjtemények Háza"
     ],
     "available": true
   },
@@ -283,7 +289,7 @@
       "2025 - Tokod, house of treasures and collections"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod, értékek és gyűjtemények háza"
+      "2025 - Tokod,  Értékek és Gyűjtemények Háza"
     ],
     "available": true
   },
@@ -305,7 +311,7 @@
       "2025 - Budapest, Valdor Art art school (Audience award 3rd place)"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod, értékek és gyűjtemények háza",
+      "2025 - Tokod,  Értékek és Gyűjtemények Háza",
       "2025 - Budapest, Valdor Art művészeti iskola (Közönség díj 3. helyezés)"
     ],
     "available": true
@@ -328,7 +334,7 @@
       "2025 - Budapest, Valdor Art art school (Audience award 3rd place)"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod, értékek és gyűjtemények háza",
+      "2025 - Tokod,  Értékek és Gyűjtemények Háza",
       "2025 - Budapest, Valdor Art művészeti iskola (Közönség díj 3. helyezés)"
     ],
     "available": true
@@ -351,7 +357,7 @@
       "2025 - Budapest, Valdor Art art school (Audience award 3rd place)"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod, értékek és gyűjtemények háza",
+      "2025 - Tokod,  Értékek és Gyűjtemények Háza",
       "2025 - Budapest, Valdor Art művészeti iskola (Közönség díj 3. helyezés)"
     ],
     "available": true
@@ -373,7 +379,7 @@
       "2025 - Tokod, house of treasures and collections"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod, értékek és gyűjtemények háza"
+      "2025 - Tokod,  Értékek és Gyűjtemények Háza"
     ],
     "available": true
   },
@@ -394,7 +400,7 @@
       "2025 - Tokod, house of treasures and collections"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod, értékek és gyűjtemények háza"
+      "2025 - Tokod,  Értékek és Gyűjtemények Háza"
     ],
     "available": true
   },
@@ -416,7 +422,7 @@
       "2025 - Tokod, house of treasures and collections"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod, értékek és gyűjtemények háza"
+      "2025 - Tokod,  Értékek és Gyűjtemények Háza"
     ],
     "available": false
   },
@@ -438,7 +444,7 @@
       "2025 - Tokod, house of treasures and collections"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod, értékek és gyűjtemények háza"
+      "2025 - Tokod,  Értékek és Gyűjtemények Háza"
     ],
     "available": false
   },
@@ -459,7 +465,7 @@
       "2025 - Tokod, house of treasures and collections"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod, értékek és gyűjtemények háza"
+      "2025 - Tokod,  Értékek és Gyűjtemények Háza"
     ],
     "available": false
   },
@@ -480,7 +486,7 @@
       "2025 - Tokod, house of treasures and collections"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod, értékek és gyűjtemények háza"
+      "2025 - Tokod,  Értékek és Gyűjtemények Háza"
     ],
     "available": false
   },
@@ -502,7 +508,7 @@
       "2025 - Tokod, house of treasures and collections"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod, értékek és gyűjtemények háza"
+      "2025 - Tokod,  Értékek és Gyűjtemények Háza"
     ],
     "available": true
   },
