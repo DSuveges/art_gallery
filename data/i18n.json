@@ -1,7 +1,7 @@
 {
   "en": {
     "nav_works":              "Works",
-    "nav_contact":            "Contact",
+    "nav_contact":            "About",
     "filter_technique":       "Technique",
     "filter_tags":            "Series & themes",
     "filter_all":             "All",
@@ -46,7 +46,7 @@
   },
   "hu": {
     "nav_works":              "Munkák",
-    "nav_contact":            "Kapcsolat",
+    "nav_contact":            "Rólam",
     "filter_technique":       "Technika",
     "filter_tags":            "Sorozatok és témák",
     "filter_all":             "Összes",

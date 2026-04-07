@@ -42,6 +42,7 @@ export function initLangSwitcher() {
     btn.addEventListener('click', () => setLang(btn.dataset.lang));
   });
   _updateSwitcherUI();
+  _updateStaticStrings();
 }
 
 // ---------- Public API ----------
@@ -54,6 +55,7 @@ export function setLang(lang) {
   localStorage.setItem(STORAGE_KEY, lang);
   document.documentElement.lang = lang;
   _updateSwitcherUI();
+  _updateStaticStrings();
   document.dispatchEvent(new CustomEvent('langchange', { detail: { lang } }));
 }
 
@@ -82,6 +84,13 @@ export function field(obj, key) {
 }
 
 // ---------- Internal ----------
+
+/** Translate all elements carrying a data-i18n attribute. */
+function _updateStaticStrings() {
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    el.textContent = t(el.dataset.i18n);
+  });
+}
 
 function _updateSwitcherUI() {
   document.querySelectorAll('.lang-switch button[data-lang]').forEach(btn => {
