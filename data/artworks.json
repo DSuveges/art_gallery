@@ -12,7 +12,9 @@
     "tags": [
       "portrait"
     ],
-    "exhibitions": [],
+    "exhibitions": [
+      "2025 - Tokod, house of treasures and collections"
+    ],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
     ],
@@ -48,7 +50,9 @@
     "tags": [
       "still_life"
     ],
-    "exhibitions": [],
+    "exhibitions": [
+      "2025 - Tokod, house of treasures and collections"
+    ],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
     ],
@@ -56,19 +60,21 @@
   },
   {
     "id": "004",
-    "title": "On the road",
+    "title": "Hitting the road at the crack of dawn",
     "title_hu": "Hajnali indulás",
     "year": 2023,
     "technique": "mixed_oil",
     "dimensions": "50 × 70 cm",
     "support": "canvas",
-    "description": "Early morning start on the road to Santiago",
-    "description_hu": "Reggeli indulás Santiago felé",
+    "description": "Early morning start on the road to Santiago. Inspired by the pilgrimage of Camino de Santiago.",
+    "description_hu": "Reggeli indulás Santiago felé. A képet a Szent Jakab zarándoklat inspirálta.",
     "tags": [
       "landscape",
       "el_camino"
     ],
-    "exhibitions": [],
+    "exhibitions": [
+      "2025 - Tokod, house of treasures and collections"
+    ],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
     ],
@@ -82,13 +88,15 @@
     "technique": "watercolour",
     "dimensions": "50 × 70 cm",
     "support": "canvas",
-    "description": null,
-    "description_hu": null,
+    "description": "Inspired by the pilgrimage of Camino de Santiago.",
+    "description_hu": "A képet a Szent Jakab zarándoklat inspirálta.",
     "tags": [
       "landscape",
       "el_camino"
     ],
-    "exhibitions": [],
+    "exhibitions": [
+      "2025 - Tokod, house of treasures and collections"
+    ],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
     ],
@@ -107,7 +115,9 @@
     "tags": [
       "portrait"
     ],
-    "exhibitions": [],
+    "exhibitions": [
+      "2025 - Tokod, house of treasures and collections"
+    ],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
     ],
@@ -126,7 +136,9 @@
     "tags": [
       "portrait"
     ],
-    "exhibitions": [],
+    "exhibitions": [
+      "2025 - Tokod, house of treasures and collections"
+    ],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
     ],
@@ -134,18 +146,20 @@
   },
   {
     "id": "008",
-    "title": "",
+    "title": "Monastery pilgrim accommodation",
     "title_hu": "Kolostor, zarándok szállás",
     "year": 2023,
     "technique": "mixed_oil",
     "dimensions": "40 × 50 cm",
     "support": "canvas",
-    "description": null,
-    "description_hu": null,
+    "description": "Inspired by the pilgrimage of Camino de Santiago.",
+    "description_hu": "A képet a Szent Jakab zarándoklat inspirálta.",
     "tags": [
       "el_camino"
     ],
-    "exhibitions": [],
+    "exhibitions": [
+      "2025 - Tokod, house of treasures and collections"
+    ],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
     ],
@@ -153,7 +167,7 @@
   },
   {
     "id": "009",
-    "title": "",
+    "title": "Peek-a-boo",
     "title_hu": "Leselkedő mókus",
     "year": 2024,
     "technique": "watercolour",
@@ -164,7 +178,9 @@
     "tags": [
       "nature"
     ],
-    "exhibitions": [],
+    "exhibitions": [
+      "2025 - Tokod, house of treasures and collections"
+    ],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
     ],
@@ -172,7 +188,7 @@
   },
   {
     "id": "010",
-    "title": "",
+    "title": "Woman portrait",
     "title_hu": "Női arc",
     "year": 2023,
     "technique": "mixed_oil",
@@ -183,7 +199,9 @@
     "tags": [
       "portrait"
     ],
-    "exhibitions": [],
+    "exhibitions": [
+      "2025 - Tokod, house of treasures and collections"
+    ],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
     ],
@@ -191,7 +209,7 @@
   },
   {
     "id": "011",
-    "title": "",
+    "title": "Woman portrait",
     "title_hu": "Női arc",
     "year": 2023,
     "technique": "acrylic",
@@ -202,7 +220,9 @@
     "tags": [
       "portrait"
     ],
-    "exhibitions": [],
+    "exhibitions": [
+      "2025 - Tokod, house of treasures and collections"
+    ],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
     ],
@@ -210,7 +230,7 @@
   },
   {
     "id": "012",
-    "title": "",
+    "title": "My beloved town, Esztergom",
     "title_hu": "Szeretett városom, Esztergom",
     "year": 2026,
     "technique": "mixed_oil",
@@ -227,7 +247,7 @@
   },
   {
     "id": "013",
-    "title": "",
+    "title": "Life",
     "title_hu": "Élet",
     "year": 2024,
     "technique": "pastel",
@@ -238,7 +258,9 @@
     "tags": [
       "abstract"
     ],
-    "exhibitions": [],
+    "exhibitions": [
+      "2025 - Tokod, house of treasures and collections"
+    ],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
     ],
@@ -246,7 +268,7 @@
   },
   {
     "id": "014",
-    "title": "",
+    "title": "Bakery",
     "title_hu": "Kenyerek",
     "year": 2023,
     "technique": "pastel",
@@ -255,9 +277,11 @@
     "description": null,
     "description_hu": null,
     "tags": [
-      "abstract"
+      "still_life"
     ],
-    "exhibitions": [],
+    "exhibitions": [
+      "2025 - Tokod, house of treasures and collections"
+    ],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
     ],
@@ -265,7 +289,7 @@
   },
   {
     "id": "015",
-    "title": "",
+    "title": "Friends 1",
     "title_hu": "Barátaink 1",
     "year": 2025,
     "technique": "mixed_oil",
@@ -276,7 +300,10 @@
     "tags": [
       "nature"
     ],
-    "exhibitions": [],
+    "exhibitions": [
+      "2025 - Tokod, house of treasures and collections",
+      "2025 - Budapest, Valdor Art art school (Audience award 3rd place)"
+    ],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza",
       "2025 - Budapest, Valdor Art művészeti iskola (Közönség díj 3. helyezés)"
@@ -285,7 +312,7 @@
   },
   {
     "id": "016",
-    "title": "",
+    "title": "Friends 2",
     "title_hu": "Barátaink 2",
     "year": 2025,
     "technique": "mixed_oil",
@@ -296,7 +323,10 @@
     "tags": [
       "nature"
     ],
-    "exhibitions": [],
+    "exhibitions": [
+      "2025 - Tokod, house of treasures and collections",
+      "2025 - Budapest, Valdor Art art school (Audience award 3rd place)"
+    ],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza",
       "2025 - Budapest, Valdor Art művészeti iskola (Közönség díj 3. helyezés)"
@@ -305,7 +335,7 @@
   },
   {
     "id": "017",
-    "title": "",
+    "title": "Friends 3",
     "title_hu": "Barátaink 3",
     "year": 2025,
     "technique": "mixed_oil",
@@ -316,7 +346,10 @@
     "tags": [
       "nature"
     ],
-    "exhibitions": [],
+    "exhibitions": [
+      "2025 - Tokod, house of treasures and collections",
+      "2025 - Budapest, Valdor Art art school (Audience award 3rd place)"
+    ],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza",
       "2025 - Budapest, Valdor Art művészeti iskola (Közönség díj 3. helyezés)"
@@ -325,18 +358,20 @@
   },
   {
     "id": "018",
-    "title": "",
+    "title": "Admiration",
     "title_hu": "Csodálat",
     "year": 2026,
     "technique": "mixed_oil",
     "dimensions": "40 × 70 cm",
     "support": "canvas",
-    "description": null,
-    "description_hu": "Santiago de Compostela katedrális orgona.",
+    "description": "The Inspired by the pilgrimage of Camino de Santiago.",
+    "description_hu": "Santiago de Compostela katedrális orgona. A képet a Szent Jakab zarándoklat inspirálta.",
     "tags": [
       "el_camino"
     ],
-    "exhibitions": [],
+    "exhibitions": [
+      "2025 - Tokod, house of treasures and collections"
+    ],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
     ],
@@ -344,18 +379,20 @@
   },
   {
     "id": "019",
-    "title": "",
+    "title": "Bota fumero",
     "title_hu": "Bota fumero",
     "year": 2023,
     "technique": "mixed_oil",
     "dimensions": "40 × 70 cm",
     "support": "canvas",
-    "description": null,
-    "description_hu": "Santiago de Compostela katedrális, füstölő.",
+    "description": "Inspired by the pilgrimage of Camino de Santiago.",
+    "description_hu": "Santiago de Compostela katedrális, füstölő. A képet a Szent Jakab zarándoklat inspirálta.",
     "tags": [
       "el_camino"
     ],
-    "exhibitions": [],
+    "exhibitions": [
+      "2025 - Tokod, house of treasures and collections"
+    ],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
     ],
@@ -363,19 +400,21 @@
   },
   {
     "id": "020",
-    "title": "",
+    "title": "Flowering wild cumin",
     "title_hu": "Virágzó vadkömény",
     "year": 2023,
     "technique": "mixed_oil",
     "dimensions": "40 × 70 cm",
     "support": "canvas",
-    "description": null,
-    "description_hu": null,
+    "description": "Inspired by the pilgrimage of Camino de Santiago.",
+    "description_hu": "A képet a Szent Jakab zarándoklat inspirálta.",
     "tags": [
       "el_camino",
       "nature"
     ],
-    "exhibitions": [],
+    "exhibitions": [
+      "2025 - Tokod, house of treasures and collections"
+    ],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
     ],
@@ -383,7 +422,7 @@
   },
   {
     "id": "021",
-    "title": "",
+    "title": "Hegyeskő, Tokod",
     "title_hu": "Hegyeskő",
     "year": 2023,
     "technique": "mixed_oil",
@@ -395,7 +434,9 @@
       "landscape",
       "nature"
     ],
-    "exhibitions": [],
+    "exhibitions": [
+      "2025 - Tokod, house of treasures and collections"
+    ],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
     ],
@@ -403,7 +444,7 @@
   },
   {
     "id": "022",
-    "title": "",
+    "title": "Sunflower",
     "title_hu": "Napraforgó",
     "year": 2023,
     "technique": "pencil",
@@ -414,7 +455,9 @@
     "tags": [
       "nature"
     ],
-    "exhibitions": [],
+    "exhibitions": [
+      "2025 - Tokod, house of treasures and collections"
+    ],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
     ],
@@ -422,7 +465,7 @@
   },
   {
     "id": "023",
-    "title": "",
+    "title": "Catch!",
     "title_hu": "Kapás van",
     "year": 2025,
     "technique": "mixed_oil",
@@ -433,7 +476,9 @@
     "tags": [
       "nature"
     ],
-    "exhibitions": [],
+    "exhibitions": [
+      "2025 - Tokod, house of treasures and collections"
+    ],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
     ],
@@ -441,7 +486,7 @@
   },
   {
     "id": "024",
-    "title": "",
+    "title": "Józsefváros",
     "title_hu": "Józsefváros",
     "year": 2022,
     "technique": "acrylic",
@@ -453,7 +498,9 @@
       "nature",
       "cityscape"
     ],
-    "exhibitions": [],
+    "exhibitions": [
+      "2025 - Tokod, house of treasures and collections"
+    ],
     "exhibitions_hu": [
       "2025 - Tokod, értékek és gyűjtemények háza"
     ],
