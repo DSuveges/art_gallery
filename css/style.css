@@ -398,6 +398,7 @@ header {
 
 /* Exhibitions list */
 #meta-exhibitions { display: flex; flex-direction: column; gap: 0.4rem; }
+#meta-exhibitions[hidden] { display: none; }
 
 .exhibitions-list {
   list-style: disc;
