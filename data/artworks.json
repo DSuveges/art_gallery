@@ -47,7 +47,7 @@
       "still_life"
     ],
     "exhibitions": [
-      "2025 - Tokod, house of treasures and collections",
+      "2025 - Tokod, House of Treasures and Collections",
       "2022 - Budapest, Valdor Art Alternative Draw and Painting School"
     ],
     "exhibitions_hu": [
@@ -71,11 +71,11 @@
       "el_camino"
     ],
     "exhibitions": [
-      "2025 - Tokod, house of treasures and collections",
+      "2025 - Tokod, House of Treasures and Collections",
       "2023 - Budapest, Valdor Art Alternative Draw and Painting School"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod,  Értékek és Gyűjtemények Háza",
+      "2025 - Tokod, Értékek és Gyűjtemények Háza",
       "2023 - Budapest, Valdor Art Alternatív Rajz- és Festő Iskola"
     ],
     "available": true
@@ -95,7 +95,7 @@
       "el_camino"
     ],
     "exhibitions": [
-      "2025 - Tokod, house of treasures and collections",
+      "2025 - Tokod, House of Treasures and Collections",
       "2023 - Budapest, Valdor Art Alternative Draw and Painting School"
     ],
     "exhibitions_hu": [
@@ -106,8 +106,8 @@
   },
   {
     "id": "006",
-    "title": "",
-    "title_hu": "",
+    "title": "Way of spirits",
+    "title_hu": "Lelkek útja",
     "year": 2024,
     "technique": "mixed_oil",
     "dimensions": "50 × 70 cm",
@@ -118,7 +118,7 @@
       "portrait"
     ],
     "exhibitions": [
-      "2025 - Tokod, house of treasures and collections",
+      "2025 - Tokod, House of Treasures and Collections",
       "2024 - Budapest, Valdor Art Alternative Draw and Painting School"
     ],
     "exhibitions_hu": [
@@ -141,11 +141,11 @@
       "portrait"
     ],
     "exhibitions": [
-      "2025 - Tokod, house of treasures and collections",
+      "2025 - Tokod, House of Treasures and Collections",
       "2025 - Lábatlan, Gerendai Community Centre"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod,  Értékek és Gyűjtemények Háza",
+      "2025 - Tokod, Értékek és Gyűjtemények Háza",
       "2025 - Lábatlan, Gerendai Közösségi Ház"
     ],
     "available": true
@@ -164,20 +164,22 @@
       "el_camino"
     ],
     "exhibitions": [
-      "2025 - Tokod, house of treasures and collections"
+      "2023 - Budapest, Valdor Art Alternative Draw and Painting School",
+      "2025 - Tokod, House of Treasures and Collections"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod,  Értékek és Gyűjtemények Háza"
+      "2023 - Budapest, Valdor Art Alternatív Rajz- és Festő Iskola",
+      "2025 - Tokod, Értékek és Gyűjtemények Háza"
     ],
     "available": true
   },
   {
     "id": "009",
     "title": "Peek-a-boo",
-    "title_hu": "Leselkedő mókus",
+    "title_hu": "Kukucs!",
     "year": 2024,
     "technique": "watercolour",
-    "dimensions": "30 × 40 cm",
+    "dimensions": "26 × 40 cm",
     "support": "paper",
     "description": null,
     "description_hu": null,
@@ -185,10 +187,10 @@
       "nature"
     ],
     "exhibitions": [
-      "2025 - Tokod, house of treasures and collections"
+      "2025 - Tokod, House of Treasures and Collections"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod,  Értékek és Gyűjtemények Háza"
+      "2025 - Tokod, Értékek és Gyűjtemények Háza"
     ],
     "available": true
   },
@@ -198,7 +200,7 @@
     "title_hu": "Női arc",
     "year": 2023,
     "technique": "mixed_oil",
-    "dimensions": "30 × 40 cm",
+    "dimensions": "40 × 50 cm",
     "support": "canvas",
     "description": null,
     "description_hu": null,
@@ -206,10 +208,10 @@
       "portrait"
     ],
     "exhibitions": [
-      "2025 - Tokod, house of treasures and collections"
+      "2025 - Tokod, House of Treasures and Collections"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod,  Értékek és Gyűjtemények Háza"
+      "2025 - Tokod, Értékek és Gyűjtemények Háza"
     ],
     "available": true
   },
@@ -219,7 +221,7 @@
     "title_hu": "Női arc",
     "year": 2023,
     "technique": "acrylic",
-    "dimensions": "30 × 40 cm",
+    "dimensions": "40 × 60 cm",
     "support": "canvas",
     "description": null,
     "description_hu": null,
@@ -227,10 +229,10 @@
       "portrait"
     ],
     "exhibitions": [
-      "2025 - Tokod, house of treasures and collections"
+      "2025 - Tokod, House of Treasures and Collections"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod,  Értékek és Gyűjtemények Háza"
+      "2025 - Tokod, Értékek és Gyűjtemények Háza"
     ],
     "available": true
   },
@@ -240,7 +242,7 @@
     "title_hu": "Szeretett városom, Esztergom",
     "year": 2026,
     "technique": "mixed_oil",
-    "dimensions": "40 × 80 cm",
+    "dimensions": "40 × 100 cm",
     "support": "canvas",
     "description": null,
     "description_hu": null,
@@ -257,7 +259,7 @@
     "title_hu": "Élet",
     "year": 2024,
     "technique": "pastel",
-    "dimensions": "50 × 70 cm",
+    "dimensions": "63 × 58 cm",
     "support": "paper",
     "description": null,
     "description_hu": null,
@@ -265,10 +267,12 @@
       "abstract"
     ],
     "exhibitions": [
-      "2025 - Tokod, house of treasures and collections"
+      "2024 - Budapest, Etele Plaza, Artroom",
+      "2025 - Tokod, House of Treasures and Collections"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod,  Értékek és Gyűjtemények Háza"
+      "2024 - Budapest, Etele Pláza, Művészterem",
+      "2025 - Tokod, Értékek és Gyűjtemények Háza"
     ],
     "available": true
   },
@@ -278,7 +282,7 @@
     "title_hu": "Kenyerek",
     "year": 2023,
     "technique": "pastel",
-    "dimensions": "50 × 70 cm",
+    "dimensions": "68 × 48 cm",
     "support": "paper",
     "description": null,
     "description_hu": null,
@@ -286,10 +290,12 @@
       "still_life"
     ],
     "exhibitions": [
-      "2025 - Tokod, house of treasures and collections"
+      "2024 - Lábatlan, Gerenday Community Centre",
+      "2025 - Tokod, House of Treasures and Collections"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod,  Értékek és Gyűjtemények Háza"
+      "2024 - Lábatlan, Gerenday Közösségi Ház",
+      "2025 - Tokod, Értékek és Gyűjtemények Háza"
     ],
     "available": true
   },
@@ -299,7 +305,7 @@
     "title_hu": "Barátaink 1",
     "year": 2025,
     "technique": "mixed_oil",
-    "dimensions": "40 × 70 cm",
+    "dimensions": "40 × 80 cm",
     "support": "canvas",
     "description": null,
     "description_hu": null,
@@ -307,12 +313,12 @@
       "nature"
     ],
     "exhibitions": [
-      "2025 - Tokod, house of treasures and collections",
-      "2025 - Budapest, Valdor Art art school (Audience award 3rd place)"
+      "2025 - Tokod, House of Treasures and Collections",
+      "2025 - Budapest, Valdor Art Alternative Draw and Paint School (Audience award 3rd place)"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod,  Értékek és Gyűjtemények Háza",
-      "2025 - Budapest, Valdor Art művészeti iskola (Közönség díj 3. helyezés)"
+      "2025 - Tokod, Értékek és Gyűjtemények Háza",
+      "2025 - Budapest, Valdor Art Alternatív Rajz- és Festő Iskola (Közönség díj 3. helyezés)"
     ],
     "available": true
   },
@@ -322,7 +328,7 @@
     "title_hu": "Barátaink 2",
     "year": 2025,
     "technique": "mixed_oil",
-    "dimensions": "40 × 70 cm",
+    "dimensions": "40 × 80 cm",
     "support": "canvas",
     "description": null,
     "description_hu": null,
@@ -330,12 +336,12 @@
       "nature"
     ],
     "exhibitions": [
-      "2025 - Tokod, house of treasures and collections",
-      "2025 - Budapest, Valdor Art art school (Audience award 3rd place)"
+      "2025 - Tokod, House of Treasures and Collections",
+      "2025 - Budapest, Valdor Art Alternative Draw and Paint School (Audience award 3rd place)"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod,  Értékek és Gyűjtemények Háza",
-      "2025 - Budapest, Valdor Art művészeti iskola (Közönség díj 3. helyezés)"
+      "2025 - Tokod, Értékek és Gyűjtemények Háza",
+      "2025 - Budapest, Valdor Art Alternatív Rajz- és Festő Iskola (Közönség díj 3. helyezés)"
     ],
     "available": true
   },
@@ -345,7 +351,7 @@
     "title_hu": "Barátaink 3",
     "year": 2025,
     "technique": "mixed_oil",
-    "dimensions": "40 × 70 cm",
+    "dimensions": "40 × 80 cm",
     "support": "canvas",
     "description": null,
     "description_hu": null,
@@ -353,12 +359,12 @@
       "nature"
     ],
     "exhibitions": [
-      "2025 - Tokod, house of treasures and collections",
-      "2025 - Budapest, Valdor Art art school (Audience award 3rd place)"
+      "2025 - Tokod, House of Treasures and Collections",
+      "2025 - Budapest, Valdor Art Alternative Draw and Paint School (Audience award 3rd place)"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod,  Értékek és Gyűjtemények Háza",
-      "2025 - Budapest, Valdor Art művészeti iskola (Közönség díj 3. helyezés)"
+      "2025 - Tokod, Értékek és Gyűjtemények Háza",
+      "2025 - Budapest, Valdor Art Alternatív Rajz- és Festő Iskola (Közönség díj 3. helyezés)"
     ],
     "available": true
   },
@@ -368,39 +374,37 @@
     "title_hu": "Csodálat",
     "year": 2026,
     "technique": "mixed_oil",
-    "dimensions": "40 × 70 cm",
+    "dimensions": "50 × 70 cm",
     "support": "canvas",
-    "description": "The Inspired by the pilgrimage of Camino de Santiago.",
+    "description": "Organs of the Santiago Cathedral. Inspired by the pilgrimage of Camino de Santiago.",
     "description_hu": "Santiago de Compostela katedrális orgona. A képet a Szent Jakab zarándoklat inspirálta.",
     "tags": [
       "el_camino"
     ],
-    "exhibitions": [
-      "2025 - Tokod, house of treasures and collections"
-    ],
-    "exhibitions_hu": [
-      "2025 - Tokod,  Értékek és Gyűjtemények Háza"
-    ],
+    "exhibitions": [],
+    "exhibitions_hu": [],
     "available": true
   },
   {
     "id": "019",
-    "title": "Bota fumero",
-    "title_hu": "Bota fumero",
+    "title": "Botafumeiro",
+    "title_hu": "Botafumeiro",
     "year": 2023,
     "technique": "mixed_oil",
     "dimensions": "40 × 70 cm",
     "support": "canvas",
-    "description": "Inspired by the pilgrimage of Camino de Santiago.",
+    "description": "Botafumeiro, the famous thurible used at the Santiago de Compostela Cathedral. Inspired by the pilgrimage of Camino de Santiago.",
     "description_hu": "Santiago de Compostela katedrális, füstölő. A képet a Szent Jakab zarándoklat inspirálta.",
     "tags": [
       "el_camino"
     ],
     "exhibitions": [
-      "2025 - Tokod, house of treasures and collections"
+      "2024 - Budapest, Etele Plaza, Artroom",
+      "2025 - Tokod, House of Treasures and Collections"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod,  Értékek és Gyűjtemények Háza"
+      "2024 - Budapest, Etele Pláza, Művészterem",
+      "2025 - Tokod, Értékek és Gyűjtemények Háza"
     ],
     "available": true
   },
@@ -410,7 +414,7 @@
     "title_hu": "Virágzó vadkömény",
     "year": 2023,
     "technique": "mixed_oil",
-    "dimensions": "40 × 70 cm",
+    "dimensions": "40 × 60 cm",
     "support": "canvas",
     "description": "Inspired by the pilgrimage of Camino de Santiago.",
     "description_hu": "A képet a Szent Jakab zarándoklat inspirálta.",
@@ -419,10 +423,10 @@
       "nature"
     ],
     "exhibitions": [
-      "2025 - Tokod, house of treasures and collections"
+      "2025 - Tokod, House of Treasures and Collections"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod,  Értékek és Gyűjtemények Háza"
+      "2025 - Tokod, Értékek és Gyűjtemények Háza"
     ],
     "available": false
   },
@@ -441,10 +445,10 @@
       "nature"
     ],
     "exhibitions": [
-      "2025 - Tokod, house of treasures and collections"
+      "2025 - Tokod, House of Treasures and Collections"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod,  Értékek és Gyűjtemények Háza"
+      "2025 - Tokod, Értékek és Gyűjtemények Háza"
     ],
     "available": false
   },
@@ -462,10 +466,10 @@
       "nature"
     ],
     "exhibitions": [
-      "2025 - Tokod, house of treasures and collections"
+      "2025 - Tokod, House of Treasures and Collections"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod,  Értékek és Gyűjtemények Háza"
+      "2025 - Tokod, Értékek és Gyűjtemények Háza"
     ],
     "available": false
   },
@@ -483,10 +487,10 @@
       "nature"
     ],
     "exhibitions": [
-      "2025 - Tokod, house of treasures and collections"
+      "2025 - Tokod, House of Treasures and Collections"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod,  Értékek és Gyűjtemények Háza"
+      "2025 - Tokod, Értékek és Gyűjtemények Háza"
     ],
     "available": false
   },
@@ -505,10 +509,12 @@
       "cityscape"
     ],
     "exhibitions": [
-      "2025 - Tokod, house of treasures and collections"
+      "2022 - Budapest, Valdor Art Alternative Draw and Painting School",
+      "2025 - Tokod, House of Treasures and Collections"
     ],
     "exhibitions_hu": [
-      "2025 - Tokod,  Értékek és Gyűjtemények Háza"
+      "2022 - Budapest, Valdor Art Alternatív Rajz- és Festő Iskola",
+      "2025 - Tokod, Értékek és Gyűjtemények Háza"
     ],
     "available": true
   },
@@ -525,8 +531,12 @@
     "tags": [
       "nature"
     ],
-    "exhibitions": [],
-    "exhibitions_hu": [],
+    "exhibitions": [
+      "2022 - Budapest, Valdor Art Alternative Draw and Painting School"
+    ],
+    "exhibitions_hu": [
+      "2025 - Tokod, Értékek és Gyűjtemények Háza"
+    ],
     "available": false
   },
   {
@@ -542,8 +552,12 @@
     "tags": [
       "abstract"
     ],
-    "exhibitions": [],
-    "exhibitions_hu": [],
+    "exhibitions": [
+      "2025 - Tokod, Advent exhibition"
+    ],
+    "exhibitions_hu": [
+      "2025 - Tokod, Adventi kiállítás"
+    ],
     "available": false
   },
   {
@@ -559,8 +573,12 @@
     "tags": [
       "nature"
     ],
-    "exhibitions": [],
-    "exhibitions_hu": [],
+    "exhibitions": [
+      "2022 - Budapest, Valdor Art Alternative Draw and Painting School"
+    ],
+    "exhibitions_hu": [
+      "2022 - Budapest, Valdor Art Alternatív Rajz- és Festő Iskola"
+    ],
     "available": false
   },
   {
@@ -576,8 +594,12 @@
     "tags": [
       "nature"
     ],
-    "exhibitions": [],
-    "exhibitions_hu": [],
+    "exhibitions": [
+      "2025 - Tokod, House of Treasures and Collections"
+    ],
+    "exhibitions_hu": [
+      "2025 - Tokod, Értékek és Gyűjtemények Háza"
+    ],
     "available": false
   }
 ]
