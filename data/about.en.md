@@ -1,9 +1,12 @@
 # About
 
-Art has been a quiet companion throughout my life, waiting patiently until it could fully unfold after my retirement. Since then, painting has become a space of exploration—for technique, form, and inner expression.
+Art has been a quiet companion throughout my life, but it was about six years ago that I truly began to pursue it with intention. Since then, painting has become not only a source of creative joy for me, but also a way to fully unwind, as I continue on a path of constant learning.
 
-Though I venture into abstraction, my heart remains close to realism, where moments, emotions, and subjects take tangible shape. My work is often guided by spiritual inspiration, bringing to life landscapes, animals, architecture, and deeply expressive portraits.
+The supportive guidance of mentors and the inspiring atmosphere of a creative community play an important role in my artistic development. I believe that exploring new and different techniques continuously opens new doors toward self-expression.
 
-My paintings have been exhibited and recognized with awards, and I warmly welcome commissions—especially those that capture the spirit of beloved pets through cherished photographs.
+Although I venture into abstract expression, my heart lies closer to realism, where moments, emotions, and subjects take on tangible shape. My work is often guided by spiritual inspiration, bringing to life landscapes, animals, architectural details, and deeply expressive portraits.
 
-Please feel free to reach out to me at  <hajnalneia@gmail.com>.
+My paintings have been exhibited and recognized with awards, and I warmly welcome commissions—especially pieces that capture the personality of beloved pets based on photographs.
+
+Please feel free to contact me at <hajnalneia@gmail.com>.
+

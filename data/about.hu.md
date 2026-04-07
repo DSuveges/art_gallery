@@ -1,6 +1,8 @@
 # Rólam
 
-A művészet egész életem során csendes kísérőm volt, türelmesen várva, hogy a nyugdíjba vonulásom után teljes mértékben kibontakozhasson. Azóta a festés a felfedezés terévé vált számomra – a technika, a forma és a belső kifejezés kutatásává.
+A művészet mindig is jelen volt az életemben, de körülbelül 6 éve fordultam felé igazán tudatosan.Azóta a festés számomra nemcsak az alkotás örömét jelenti, hanem a teljes kikapcsolódás forrása is, miközben a folyamatos tanulás útján haladok.
+
+Az alkotói fejlődésemben fontos szerepet játszik a mentorok segítő támogatása és az inspiráló, közösségi alkotói légkör. Hiszem, hogy az újabb és újabb technikák mindig új ajtókat nyitnak meg az önkifejezés felé.
 
 Bár az absztrakcióval is kísérletezem, szívemhez legközelebb a realizmus áll, ahol a pillanatok, érzelmek és témák kézzelfogható formát öltenek. Munkáimat gyakran spirituális inspiráció vezérli, melyekben tájképek, állatok, építészeti részletek és mélyen kifejező portrék kelnek életre.
 
