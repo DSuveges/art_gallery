@@ -1,15 +1,9 @@
 # About
 
-Write a short introduction here — who you are, where you work, what drives your practice.
+Art has been a quiet companion throughout my life, waiting patiently until it could fully unfold after my retirement. Since then, painting has become a space of exploration—for technique, form, and inner expression.
 
-## Artistic Philosophy
+Though I venture into abstraction, my heart remains close to realism, where moments, emotions, and subjects take tangible shape. My work is often guided by spiritual inspiration, bringing to life landscapes, animals, architecture, and deeply expressive portraits.
 
-A few sentences about how you approach your work — what you are looking for in a painting, what questions or feelings you are trying to explore.
+My paintings have been exhibited and recognized with awards, and I warmly welcome commissions—especially those that capture the spirit of beloved pets through cherished photographs.
 
-## Favourite Techniques
-
-Describe the media and methods that feel most natural to you — oils, watercolour, charcoal — and why you are drawn to them.
-
-## Motivation
-
-What pulls you to make art? This could be personal, observational, or conceptual — whatever feels honest.
+Please feel free to reach out to me at  <hajnalneia@gmail.com>.

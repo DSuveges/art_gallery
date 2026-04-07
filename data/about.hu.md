@@ -1,15 +1,9 @@
 # Rólam
 
-Írjon ide egy rövid bemutatkozást — ki Ön, hol dolgozik, mi hajtja alkotói munkáját.
+A művészet egész életem során csendes kísérőm volt, türelmesen várva, hogy a nyugdíjba vonulásom után teljes mértékben kibontakozhasson. Azóta a festés a felfedezés terévé vált számomra – a technika, a forma és a belső kifejezés kutatásává.
 
-## Művészeti Filozófia
+Bár az absztrakcióval is kísérletezem, szívemhez legközelebb a realizmus áll, ahol a pillanatok, érzelmek és témák kézzelfogható formát öltenek. Munkáimat gyakran spirituális inspiráció vezérli, melyekben tájképek, állatok, építészeti részletek és mélyen kifejező portrék kelnek életre.
 
-Néhány mondat arról, hogyan közelít a munkájához — mit keres egy festményben, milyen kérdéseket vagy érzéseket kíván feltárni.
+Festményeimet több kiállításon is bemutatták, és több alkalommal díjazásban részesültek. Szeretettel fogadok megrendeléseket is – különösen olyan alkotásokat, amelyek szeretett házi kedvencek egyéniségét örökítik meg fényképek alapján.
 
-## Kedvenc Technikák
-
-Írja le azokat az anyagokat és módszereket, amelyek a legtermészetesebbnek érzik — olaj, akvarell, szén — és hogy miért vonzódik hozzájuk.
-
-## Motiváció
-
-Mi vonzza a képzőművészet felé? Ez lehet személyes, megfigyelésen alapuló vagy fogalmi jellegű — bármi, ami őszintének érzi.
+Kérem, bizalommal keressen a következő e-mail címen: <hajnalneia@gmail.com>.
