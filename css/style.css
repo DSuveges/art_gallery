@@ -324,9 +324,29 @@ header {
   justify-content: center;
   padding: 3rem 1.5rem 3rem 3rem;
   overflow: hidden;
+  position: relative;
 }
 
+#lightbox-spinner {
+  display: none;
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+  position: absolute;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+#lightbox-image-wrap.loading #lightbox-spinner { display: block; }
+#lightbox-image-wrap.loading #lightbox-img     { opacity: 0; }
+
 #lightbox-img {
+  transition: opacity 0.2s ease;
   max-width: 100%;
   max-height: calc(100vh - 6rem);
   object-fit: contain;

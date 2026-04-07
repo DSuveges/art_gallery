@@ -9,6 +9,7 @@ import { R2_BASE } from './config.js';
 
 const lightbox  = document.getElementById('lightbox');
 const backdrop  = document.getElementById('lightbox-backdrop');
+const imgWrap   = document.getElementById('lightbox-image-wrap');
 const img       = document.getElementById('lightbox-img');
 const btnClose  = document.getElementById('lightbox-close');
 const btnPrev   = document.getElementById('lightbox-prev');
@@ -53,9 +54,11 @@ function navigate(dir) {
 // ---------- Populate ----------
 
 function populate(artwork) {
+  imgWrap.classList.add('loading');
   img.src = `${R2_BASE}/medium/${artwork.id}.jpg`;
   img.alt = field(artwork, 'title');
-  img.onerror = () => { img.src = 'images/placeholder.svg'; };
+  img.onload  = () => imgWrap.classList.remove('loading');
+  img.onerror = () => { imgWrap.classList.remove('loading'); img.src = 'images/placeholder.svg'; };
   zoomLink.href = `${R2_BASE}/large/${artwork.id}.jpg`;
 
   metaTitle.textContent = field(artwork, 'title');
