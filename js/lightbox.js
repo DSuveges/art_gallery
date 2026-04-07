@@ -53,7 +53,7 @@ function navigate(dir) {
 // ---------- Populate ----------
 
 function populate(artwork) {
-  img.src = `${R2_BASE}/large/${artwork.id}.jpg`;
+  img.src = `${R2_BASE}/medium/${artwork.id}.jpg`;
   img.alt = field(artwork, 'title');
   img.onerror = () => { img.src = 'images/placeholder.svg'; };
   zoomLink.href = `${R2_BASE}/large/${artwork.id}.jpg`;
