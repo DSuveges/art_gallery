@@ -458,5 +458,65 @@
       "2025 - Tokod, értékek és gyűjtemények háza"
     ],
     "available": true
+  },
+  {
+    "id": "025",
+    "title": "",
+    "title_hu": "",
+    "year": null,
+    "technique": null,
+    "dimensions": null,
+    "support": null,
+    "description": null,
+    "description_hu": null,
+    "tags": [],
+    "exhibitions": [],
+    "exhibitions_hu": [],
+    "available": null
+  },
+  {
+    "id": "026",
+    "title": "",
+    "title_hu": "",
+    "year": null,
+    "technique": null,
+    "dimensions": null,
+    "support": null,
+    "description": null,
+    "description_hu": null,
+    "tags": [],
+    "exhibitions": [],
+    "exhibitions_hu": [],
+    "available": null
+  },
+  {
+    "id": "027",
+    "title": "",
+    "title_hu": "",
+    "year": null,
+    "technique": null,
+    "dimensions": null,
+    "support": null,
+    "description": null,
+    "description_hu": null,
+    "tags": [],
+    "exhibitions": [],
+    "exhibitions_hu": [],
+    "available": null
+  },
+  {
+    "id": "028",
+    "title": "",
+    "title_hu": "",
+    "year": null,
+    "technique": null,
+    "dimensions": null,
+    "support": null,
+    "description": null,
+    "description_hu": null,
+    "tags": [],
+    "exhibitions": [],
+    "exhibitions_hu": [],
+    "available": null
   }
 ]
