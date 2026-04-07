@@ -461,62 +461,70 @@
   },
   {
     "id": "025",
-    "title": "",
-    "title_hu": "",
-    "year": null,
-    "technique": null,
-    "dimensions": null,
-    "support": null,
+    "title": "Quenching hirst",
+    "title_hu": "Cinege",
+    "year": 2022,
+    "technique": "watercolour",
+    "dimensions": "40 x 50 cm",
+    "support": "paper",
     "description": null,
     "description_hu": null,
-    "tags": [],
+    "tags": [
+      "nature"
+    ],
     "exhibitions": [],
     "exhibitions_hu": [],
-    "available": null
+    "available": false
   },
   {
     "id": "026",
-    "title": "",
-    "title_hu": "",
-    "year": null,
-    "technique": null,
-    "dimensions": null,
-    "support": null,
+    "title": "Angel",
+    "title_hu": "Angyal",
+    "year": 2022,
+    "technique": "mixed_oil",
+    "dimensions": "40 x 50 cm",
+    "support": "canvas",
     "description": null,
     "description_hu": null,
-    "tags": [],
+    "tags": [
+      "abstract"
+    ],
     "exhibitions": [],
     "exhibitions_hu": [],
-    "available": null
+    "available": false
   },
   {
     "id": "027",
-    "title": "",
-    "title_hu": "",
-    "year": null,
-    "technique": null,
-    "dimensions": null,
-    "support": null,
+    "title": "Poppies",
+    "title_hu": "Pipacsok",
+    "year": 2022,
+    "technique": "acrylic",
+    "dimensions": "40 x 50 cm",
+    "support": "canvas",
     "description": null,
     "description_hu": null,
-    "tags": [],
+    "tags": [
+      "nature"
+    ],
     "exhibitions": [],
     "exhibitions_hu": [],
-    "available": null
+    "available": false
   },
   {
     "id": "028",
-    "title": "",
-    "title_hu": "",
-    "year": null,
-    "technique": null,
-    "dimensions": null,
-    "support": null,
+    "title": "Squirrel",
+    "title_hu": "Mókus",
+    "year": 2022,
+    "technique": "pastel",
+    "dimensions": "25 x 30 cm",
+    "support": "paper",
     "description": null,
     "description_hu": null,
-    "tags": [],
+    "tags": [
+      "nature"
+    ],
     "exhibitions": [],
     "exhibitions_hu": [],
-    "available": null
+    "available": false
   }
 ]
