@@ -2,9 +2,9 @@
 
 A static artist portfolio. No server, no database, no build step.
 
-## Running locally
+Live at **https://adrienne-art.pages.dev** — deployed automatically via Cloudflare Pages on every push to `main`.
 
-The easiest way is a one-line Python server from the project root:
+## Running locally
 
 ```bash
 python3 -m http.server
@@ -12,103 +12,132 @@ python3 -m http.server
 
 Then open `http://localhost:8000` in your browser.
 
-Alternatively, any static host works out of the box: GitHub Pages, Netlify, Vercel, Cloudflare Pages, etc.
+---
+
+## Architecture
+
+| Concern | Solution |
+|---------|----------|
+| Hosting | Cloudflare Pages (static, free tier) |
+| Images | Cloudflare R2 (zero egress fees) |
+| i18n | English + Hungarian, toggled at runtime, persisted in `localStorage` |
+| Metadata | `data/artworks.json` — validated at commit time |
+| About page | `data/about.en.md` / `data/about.hu.md` — rendered with marked.js |
+| No build step | Vanilla JS ES modules, no bundler |
 
 ---
 
-## Adding a new work
+## Adding a new artwork
 
-### 1. Add images
+### 1. Prepare images
 
-Place two versions of the image in:
+Generate three sizes from the original/cropped file:
 
-| Path | Purpose | Recommended size |
-|------|---------|-----------------|
-| `images/large/NNN.jpg` | Lightbox full view | original or up to ~2000px on longest side |
-| `images/thumbs/NNN.jpg` | Grid thumbnail | ~600px on longest side |
+```bash
+# Thumbnail (~400px, shown in gallery grid)
+magick original.jpg -resize 400x400\> -quality 75 thumbs/NNN.jpg
+
+# Medium (~1400px, shown in lightbox)
+magick original.jpg -resize 1400x1400\> -quality 82 medium/NNN.jpg
+
+# Large (full resolution, opened by zoom link)
+cp original.jpg large/NNN.jpg
+```
 
 Use the next available three-digit number (`001`, `002`, …) as the filename.
 
-Quick resize with ImageMagick (run from `images/large/`):
+### 2. Upload to R2
 
-```bash
-magick NNN.jpg -resize 600x600\> ../thumbs/NNN.jpg
+Upload all three files to the R2 bucket under their respective prefixes:
+
+```
+thumbs/NNN.jpg
+medium/NNN.jpg
+large/NNN.jpg
 ```
 
-### 2. Edit `data/artworks.json`
+### 3. Add an entry to `data/artworks.json`
 
-Append an entry to the array:
+Append to the array:
 
 ```json
 {
   "id": "009",
   "title": "Painting Title",
+  "title_hu": "Festmény Cím",
   "year": 2025,
   "technique": "oil",
   "dimensions": "40 × 50 cm",
   "support": "canvas",
-  "description": "A sentence or two about this work.",
+  "description": null,
+  "description_hu": null,
+  "tags": ["portrait"],
+  "exhibitions": [],
+  "exhibitions_hu": [],
   "available": true
 }
 ```
 
 **Field reference**
 
-| Field | Type | Description |
-|-------|------|-------------|
-| `id` | string | Must match the image filenames exactly |
-| `title` | string | Title of the work |
-| `year` | number | Year of completion |
-| `technique` | string | Used for filter buttons — e.g. `"oil"`, `"watercolour"`, `"charcoal"` |
-| `dimensions` | string | e.g. `"60 × 80 cm"` |
-| `support` | string | e.g. `"canvas"`, `"linen"`, `"paper"`, `"board"` |
-| `description` | string | Shown in the lightbox. Can be left `""` |
-| `available` | boolean | `true` shows an "Available" badge; `false` shows "Not available" |
+| Field | Type | Required | Notes |
+|-------|------|----------|-------|
+| `id` | string | yes | Must match image filenames exactly |
+| `title` | string | yes | English title |
+| `title_hu` | string | no | Hungarian title; falls back to `title` if omitted |
+| `year` | number | no | `null` hides the field |
+| `technique` | string | no | Must match a key in `i18n.json` (e.g. `"oil"`, `"watercolour"`, `"pastel"`) |
+| `dimensions` | string | no | e.g. `"60 × 80 cm"` |
+| `support` | string | no | Must match a key in `i18n.json` (e.g. `"canvas"`, `"paper"`) |
+| `description` | string | no | Shown in lightbox; `null` hides the field |
+| `description_hu` | string | no | Hungarian description |
+| `tags` | array | no | Each tag must match a key in `i18n.json` (e.g. `"portrait"`, `"landscape"`) |
+| `exhibitions` | array | no | List of exhibition strings shown as bullet points |
+| `exhibitions_hu` | array | no | Hungarian exhibition list |
+| `available` | boolean\|null | no | `true` → "Available" badge; `false` → "Sold"; `null` → no badge |
 
-### 3. Commit and push
+### 4. Commit and push
 
 ```bash
-git add data/artworks.json images/large/009.jpg images/thumbs/009.jpg
+git add data/artworks.json
 git commit -m "Add: Painting Title (2025)"
 git push
 ```
 
+The pre-commit hook validates that all `technique`, `support`, and `tag` values have matching entries in `i18n.json` before the commit is accepted.
+
 ---
 
-## Changing order
+## Updating the About page
 
-The grid follows the order of entries in `artworks.json`. Move entries up or down in the file to reorder.
+Edit either or both markdown files and commit:
 
-## Removing a work
+- `data/about.en.md` — English text
+- `data/about.hu.md` — Hungarian text
 
-Delete the entry from `artworks.json` and optionally delete the image files. Commit both changes together.
+Standard markdown applies: `##` headings, paragraphs, bullet lists, `**bold**`, `*italic*`, links.
 
-## Updating artist name / contact
+---
 
-Edit `index.html` directly:
+## Changing order / removing a work
 
-```html
-<h1 class="artist-name">Your Name</h1>
-<a href="mailto:you@example.com">you@example.com</a>
-```
+- **Reorder**: move entries up or down in `artworks.json`.
+- **Remove**: delete the entry from `artworks.json` and the corresponding files from R2.
+
+---
+
+## Adding a new technique, support type, or tag
+
+1. Add the value to the relevant artwork entry in `artworks.json`.
+2. Add translation keys to **both** `en` and `hu` blocks in `data/i18n.json`:
+   - Technique: `"technique_yourvalue": "Label"`
+   - Support: `"support_yourvalue": "Label"`
+   - Tag: `"tag_yourvalue": "Label"`
+
+The pre-commit validator will catch any missing keys before they reach production.
+
+---
 
 ## Theming
 
-All colours and fonts are CSS custom properties at the top of `css/style.css`. Edit the `:root` block to restyle the whole site.
-
----
-
-## File:// fallback (no server)
-
-If you want to open `index.html` directly from the filesystem without a server, Chrome will block the `fetch()` call that loads the JSON. To work around this:
-
-1. Create `data/artworks.js` containing:
-   ```js
-   window.__ARTWORKS__ = [ /* paste artworks.json content here */ ];
-   ```
-2. Uncomment this line in `index.html`:
-   ```html
-   <script src="data/artworks.js"></script>
-   ```
-
-Keep both files in sync when you add new works. The JSON file remains the source of truth.
+All colours and fonts are CSS custom properties at the top of `css/style.css`. Edit the `:root` block to restyle the whole site. Dark mode is handled automatically via `@media (prefers-color-scheme: dark)`.
