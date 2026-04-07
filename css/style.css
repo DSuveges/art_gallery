@@ -566,7 +566,7 @@ header {
 }
 
 /* ============================================================
-   Contact page
+   About page (markdown prose)
    ============================================================ */
 .contact-wrap {
   max-width: 680px;
@@ -574,74 +574,47 @@ header {
   padding: 0 var(--gap);
 }
 
-.contact-bio {
-  font-size: 1.05rem;
-  line-height: 1.8;
-  color: var(--text-muted);
-  margin-bottom: 2.5rem;
-  padding-bottom: 2.5rem;
+.contact-wrap h1 {
+  font-size: 1.6rem;
+  font-weight: normal;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
   border-bottom: 1px solid var(--border);
 }
 
-.contact-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 0;
-}
-
-.contact-block {
-  padding: 1.5rem 0;
-  border-bottom: 1px solid var(--border);
-  display: grid;
-  grid-template-columns: 10rem 1fr;
-  gap: 0.25rem 1.5rem;
-  align-items: baseline;
-}
-
-.contact-label {
+.contact-wrap h2 {
   font-family: var(--font-ui);
   font-size: 0.75rem;
   font-weight: normal;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--text-muted);
-  padding-top: 0.1rem;
+  margin-top: 2.5rem;
+  margin-bottom: 0.6rem;
 }
 
-.contact-block p,
-.contact-block a {
-  font-size: 1rem;
-  color: var(--text);
-  text-decoration: none;
+.contact-wrap p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
 }
 
-.contact-block a:hover {
-  color: var(--accent);
-  text-decoration: underline;
+.contact-wrap ul,
+.contact-wrap ol {
+  padding-left: 1.4rem;
+  margin-bottom: 1rem;
 }
 
-.contact-sub {
-  font-family: var(--font-ui);
-  font-size: 0.85rem;
+.contact-wrap li {
+  font-size: 1.05rem;
+  line-height: 1.8;
   color: var(--text-muted);
 }
 
-.contact-links {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 0.3rem;
-}
-
-.contact-links li {
-  font-size: 1rem;
-}
-
-@media (max-width: 500px) {
-  .contact-block {
-    grid-template-columns: 1fr;
-    gap: 0.4rem;
-  }
+.contact-wrap a {
+  color: var(--accent);
+  text-decoration: underline;
 }
 
 /* ============================================================
