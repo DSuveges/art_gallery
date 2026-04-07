@@ -95,6 +95,7 @@ function populate(artwork) {
     metaExhList.innerHTML = exhItems.map(e => `<li>${e}</li>`).join('');
     metaExhibitions.hidden = false;
   } else {
+    metaExhList.innerHTML = '';
     metaExhibitions.hidden = true;
   }
 
