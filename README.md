@@ -48,13 +48,23 @@ Use the next available three-digit number (`001`, `002`, …) as the filename.
 
 ### 2. Upload to R2
 
-Upload all three files to the R2 bucket under their respective prefixes:
+Upload all three files to the `adrienne-art` R2 bucket under their respective prefixes:
 
 ```
 thumbs/NNN.jpg
 medium/NNN.jpg
 large/NNN.jpg
 ```
+
+From the folder containing `thumbs/`, `medium/` and `large/`, using Wrangler (run `npx wrangler login` first if needed):
+
+```bash
+for f in thumbs/NNN.jpg medium/NNN.jpg large/NNN.jpg; do
+  npx wrangler r2 object put "adrienne-art/$f" --file "$f" --content-type image/jpeg --remote
+done
+```
+
+`--remote` is required, otherwise Wrangler writes to a local simulated bucket and the image never reaches R2.
 
 ### 3. Add an entry to `data/artworks.json`
 
