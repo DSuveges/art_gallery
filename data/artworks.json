@@ -687,7 +687,7 @@
     "support": "canvas",
     "description": "The future could bring anything — but what will it ask in return? On one side of the coin, dazzling promises; on the other, vulnerability: the selling off of the personal data we surrender in exchange for services, surveillance, and intrusion. More and more possibilities, less and less say. And there is no off switch.",
     "description_hu": "A jövő bármit hozhat — de vajon mit kér cserébe? Az érem egyik oldalán szédítő ígéretek, a másikon kiszolgáltatottság: a szolgáltatásokért cserébe átadott személyes adataink kiárusítása, megfigyelés és beavatkozás. Egyre több lehetőség, egyre kevesebb beleszólás. És nincs kikapcsológomb.",
-    "tags": [],
+    "tags": ["abstract"],
     "exhibitions": ["2027 - Budapest, Gallery K - Exhibition space for Contemporary Art"],
     "exhibitions_hu": ["2027 - Budapest, K Galéria Kortárs Képzőművészeti Kiállítótér"],
     "available": true

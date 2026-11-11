@@ -92,7 +92,14 @@ function applyFilters() {
 
 // ---------- Grid ----------
 
-export function render(artworks) {
+// Newest year first; within a year, the most recently added (highest id) first.
+// Works without a year go last.
+function byNewest(a, b) {
+  return (b.year ?? 0) - (a.year ?? 0) || b.id.localeCompare(a.id);
+}
+
+export function render(unsorted) {
+  const artworks = [...unsorted].sort(byNewest);
   _visible = artworks;
   grid.innerHTML = '';
 

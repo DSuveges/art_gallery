@@ -131,7 +131,7 @@ Standard markdown applies: `##` headings, paragraphs, bullet lists, `**bold**`, 
 
 ## Changing order / removing a work
 
-- **Reorder**: move entries up or down in `artworks.json`.
+- **Order**: the gallery sorts automatically by `year` (newest first), then by `id` (highest first) within a year. The position of an entry in `artworks.json` has no effect; change `year` or `id` to move a work.
 - **Remove**: delete the entry from `artworks.json` and the corresponding files from R2.
 
 ---
