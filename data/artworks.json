@@ -115,7 +115,7 @@
     "description": null,
     "description_hu": null,
     "tags": [
-      "portrait"
+      "portrait", "abstract"
     ],
     "exhibitions": [
       "2025 - Tokod, House of Treasures and Collections",
@@ -672,7 +672,7 @@
     "support": "canvas",
     "description": null,
     "description_hu": null,
-    "tags": [],
+    "tags": ["el_camino"],
     "exhibitions": ["2027 - Budapest, Gallery K - Exhibition space for Contemporary Art"],
     "exhibitions_hu": ["2027 - Budapest, K Galéria Kortárs Képzőművészeti Kiállítótér"],
     "available": true
